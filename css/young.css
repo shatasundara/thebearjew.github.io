@@ -1,0 +1,27 @@
+body {
+	font-family: "Helvetica Neue", "Helvetica", san-sarif;
+}
+h1 {
+	font-weight: lighter;
+}
+
+h3 {
+	font-size: 12px;
+	font-weight: lighter;
+}	
+.fa.intro {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.navbar-inner {
+	background-color: transparent;
+}
+.intro-img .intro-img-blur {
+	-webkit-filter: blur(5px);
+}
+#intro {
+	padding-top: 20vh;
+	padding-bottom: 50vh;
+ 	color: #fff;
+	background-color: #34495E;
+}
