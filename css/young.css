@@ -1,6 +1,7 @@
 body {
 	font-family: "Helvetica Neue", "Helvetica", san-sarif;
 }
+
 h1 {
 	font-weight: lighter;
 }
@@ -9,19 +10,28 @@ h3 {
 	font-size: 12px;
 	font-weight: lighter;
 }	
-.fa.intro {
-	padding-left: 50px;
-	padding-right: 50px;
+
+.container {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+ 	color: #fff;
+	background-color: #34495E;
 }
+
+.intro-layout {
+	margin-top: 10%;
+}
+
+.fa.intro {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
 .navbar-inner {
 	background-color: transparent;
 }
+
 .intro-img .intro-img-blur {
 	-webkit-filter: blur(5px);
-}
-#intro {
-	padding-top: 20vh;
-	padding-bottom: 50vh;
- 	color: #fff;
-	background-color: #34495E;
 }
