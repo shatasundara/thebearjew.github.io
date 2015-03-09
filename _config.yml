@@ -1,33 +1,30 @@
 # Site settings
-title: Jacob Young | Developer • Student • Traveler
+title: Developer • Student • Traveler
 email: contact@jacobyoung.me
 description: > # this means to ignore newlines until "baseurl:"
-  Jacob Young is an iOS and front end developer who specializes in creating new and powerful applications.
-  Jacob wants to develop useful and original software while advancing personal, technical, and leadership skills in startup or established technology company.
+  I'm a full time student and iOS/front end developer. I write about tech, hacakthons, social bullshit, and developing.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jacobyoung.me" # the base hostname & protocol for your site
+permalink: pretty
+timezone: America/Los_Angeles
 twitter_username: JakeRYoung
 github_username: JacobRYoung
+linkedin_username: jacobryoung
 reddit_username: JewCFroot
-hackernews_username: Zezima
-kramdown:
-  input: GFM
 
 defaults:
--
-  scope:
-    path: "" # an empty string here means all files in the project
-    type: "posts" # Applies 
-  values:
-    layout: "post-layout"
--
-  scope:
-    path: "projects"
-    type: "pages"
-  values:
-    layout: "project-layout"
-    srouce: "open"
-
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # Applies 
+    values:
+      layout: "post-layout"
+  -
+    scope:
+      path: "projects"
+      type: "pages"
+    values:
+      layout: "project-layout"
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet

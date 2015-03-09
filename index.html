@@ -1,52 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/flat-ui.min.css">
-	<link rel="stylesheet" type="text/css" href="css/young.css">
-</head>
-
-<body>
-	<!-- navbar -->
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="about.html">About</a></li>
-				<li><a href="projects.html">Projects</a></li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="resume.pdf">Resume</a></li>
-			</ul>
-		</div>
-	</nav>
-	<!-- /navbar -->
-
-	<!--  content -->
+---
+layout: default
+---
+<!--  content -->
+<section id="intro">
 	<div class="container">
-	<div class="row">
-		<div class="col-lg-12 intro-layout">
-			<img class="img-responsive center-block img-circle" src="img/profile.jpg" alt="">
-	</div>
 		<div class="row text-center">
-			<div class="col-lg-12 col-md-12 s col-sm-12 col-xs-12 center-block">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<h1>Jacob Young</h1>
-				<p class="small-font"> 
-					<span style="color: #fba919">iOS Developer</span> - 
-					<span style="color:#9B59B6">Front End Web Developer</span> - 
+				<p> 
+					<span style="color: #fba919">iOS Developer</span>
+					<span style="color:#9B59B6">Front End Web Developer</span>
 					<span style="color:#3498DB">Student</span>
 				</p>
-				<a href="https://twitter.com/JakeRYoung"><i class="fa intro fa-twitter fa-lg"></i></a>
-				<a href="https://reddit.com/u/JewCFroot"><i class="fa intro fa-reddit-square fa-lg"></i></a>
-				<a href="https://github.com/JacobRYoung"><i class="fa intro fa-github fa-lg"></i></a>
-				<a href="https:news.ycombinator.com"><i class="fa intro fa-hacker-news fa-lg"></i></a>
-				<a href="https://linkedin.com/JacobRYoung"><i class="fa intro fa-linkedin-square fa-lg"></i></a>
 			</div>				
 		</div>
 	</div>
-	<!-- /content -->
+</section>
+<section id="intro-about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<a href="/about/"><h1>About Me</h1></a>
+				<p>{{ site.description }}</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="latest-post">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 text-center">
+				<a href="/posts/"><h1>Latest Writing</h1></a>
+				<h4 style="margin: 0px">{{ site.posts[0].title }}</h4>
+				<small>{{ site.posts[0].date | date_to_string }}</small>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 text-center">
+				{{ site.posts[0].excerpt }}
+			</div>
+		</div>
+	</div>
+</section>
 
-	<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
-</body>
-</html>
