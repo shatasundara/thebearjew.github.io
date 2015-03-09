@@ -1,0 +1,93 @@
+html {
+	font-family: "Open-Sans", "HelveticaNeue-Light" , "Helvetica", san-sarif;
+	font-weight: 200;
+}
+a {
+	color: #16a085;
+
+}
+
+a:hover {
+	color: #337ab7;
+}
+
+footer {
+	position: absolute;
+	bottom: relative;
+	left: 0;
+	right: 0;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: 300;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+.navbar-default {
+	background-color: none;
+}
+
+.navbar-default .navbar-nav>ul {
+	background-color: #34495E;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #16a085;
+	font-weight: 400;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: #337ab7;
+	background-color: transparent;
+}
+
+.intro-layout {
+	margin-top: 15%;
+}
+
+.fa.intro {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+#intro {
+	color: #16a085;
+	background-color: #34495E;
+	padding-top: 18em;
+	padding-bottom: 6.5em;
+	background: url(http://i.imgur.com/rc0KKjO.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#intro h1 {
+	color: #fff
+}
+
+#intro p>span {
+	padding-right: 1em;
+	font-weight: 300;
+}
+
+#intro-about {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	background-color: #edeff1;
+}
+
+#latest-post {
+	padding-top: 1em;
+	padding-bottom: 3.5em;
+}
+
+#posts {
+	padding-bottom: 2em;
+}
+
+#posts ul>li {
+	list-style: none;
+}

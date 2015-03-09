@@ -1,7 +1,44 @@
-<!DOCTYPE html>
-
-<html>
-
-<b>Hi</b>
-
-</html>
+---
+layout: default
+---
+<!--  content -->
+<section id="intro">
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<h1>Jacob Young</h1>
+				<p> 
+					<span style="color: #fba919">iOS Developer</span>
+					<span style="color:#9B59B6">Front End Web Developer</span>
+					<span style="color:#3498DB">Student</span>
+				</p>
+			</div>				
+		</div>
+	</div>
+</section>
+<section id="intro-about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<a href="/about/"><h1>About Me</h1></a>
+				<p>{{ site.description }}</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="latest-post">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 text-center">
+				<a href="/posts/"><h1>Latest Writing</h1></a>
+				<h4 style="margin: 0px">{{ site.posts[0].title }}</h4>
+				<small>{{ site.posts[0].date | date_to_string }}</small>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 text-center">
+				{{ site.posts[0].excerpt }}
+			</div>
+		</div>
+	</div>
+</section>

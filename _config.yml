@@ -1,0 +1,30 @@
+# Site settings
+title: Developer • Student • Traveler
+email: contact@jacobyoung.me
+description: > # this means to ignore newlines until "baseurl:"
+  I'm a full time student and iOS/front end developer. I write about tech, hacakthons, social bullshit, and developing.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://jacobyoung.me" # the base hostname & protocol for your site
+permalink: pretty
+timezone: America/Los_Angeles
+twitter_username: JakeRYoung
+github_username: JacobRYoung
+linkedin_username: jacobryoung
+reddit_username: JewCFroot
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # Applies 
+    values:
+      layout: "post-layout"
+  -
+    scope:
+      path: "projects"
+      type: "pages"
+    values:
+      layout: "project-layout"
+
+# Build settings
+markdown: redcarpet
