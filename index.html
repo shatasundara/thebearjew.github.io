@@ -6,14 +6,15 @@ layout: default
 	<div class="container">
 		<div class="row text-center">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<h1>Jacob Young</h1>
+				<h1 class="title">Jacob Young</h1>
 				<p> 
-					<span style="color: #fba919">iOS Developer</span>
-					<span style="color:#9B59B6">Front End Web Developer</span>
-					<span style="color:#3498DB">Student</span>
+					<span style="color: #337ab7">iOS Developer</span>
+					<span style="color: #FE8650">Front End Web Developer</span>
+					<span style="color: #B0AB77">Student</span>
 				</p>
-			</div>				
+			</div>	
 		</div>
+		<a onclick="return false" href="#"><span id="scroll" class="read-more">No need to stare. More down here</span></a>	
 	</div>
 </section>
 <section id="intro-about">
@@ -38,6 +39,7 @@ layout: default
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 text-center">
 				{{ site.posts[0].excerpt }}
+				<a href="{{ site.posts[0].url }}"> Coninue reading... </a>
 			</div>
 		</div>
 	</div>
