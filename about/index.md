@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm a student currently taking classes at [Diablo Valley College](http://dvc.edu) working on transfering to UC Berkeley's undergraduate Computer Science program.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Most of my time is spent writing and learning Objective-C and iOS. I'm passionate about writing, programming, and properly roasted coffee: because you know, no one wants to drink motor oil.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+
+Feel free to reach out to me about anything and everything.
