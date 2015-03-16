@@ -25,18 +25,17 @@ body {
 	font-weight: 200;
 }
 
-
 h1, h2, h3, h4, h5 {
 	font-family: "Open-SansLight";
 	font-weight: 300;
 }
 
 a {
-	color: #16a085;
+	color: #3498DB;
 }
 
 a:hover {
-	color: #3498DB;
+	color: #16a085;
 }
 
 .navbar {
@@ -192,7 +191,7 @@ a:hover {
 }
 
 #page {
-	margin-bottom: 11em;
+	margin-bottom: 10em;
 }
 
 #page>small {
@@ -212,7 +211,7 @@ a:hover {
 }
 
 #post .post-title {
-	margin-bottom: 0;
+	margin-bottom: 0
 }
 
 #post {
