@@ -1,19 +1,20 @@
 ---
-layout: default
+layout: intro
 ---
 <!--  content -->
 <section id="intro">
 	<div class="container">
 		<div class="row text-center">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<h1>Jacob Young</h1>
+				<h1 class="title">Jacob Young</h1>
 				<p> 
-					<span style="color: #fba919">iOS Developer</span>
-					<span style="color:#9B59B6">Front End Web Developer</span>
-					<span style="color:#3498DB">Student</span>
+					<span>iOS Developer</span>
+					<span>Front End Web Developer</span>
+					<span>Student</span>
 				</p>
-			</div>				
+			</div>	
 		</div>
+		<a onclick="return false" href="#"><span id="scroll" class="read-more">No need to stare - More down here</span></a>	
 	</div>
 </section>
 <section id="intro-about">
@@ -26,11 +27,36 @@ layout: default
 		</div>
 	</div>
 </section>
+<section id="intro-social">
+	<div class="container"> 
+		<div class="row text-center">
+			<div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-4 col-xs-12">
+				<a title="Twitter: @{{ site.twitter_username }}" href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-3x"></i></a>
+			</div>
+
+			<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+				<a title="Github: {{ site.github_username }}" style="color: #000" href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-3x"></i></a>
+			</div>
+
+			<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+				<a title="Linkedin: {{ site.linkedin_username }}" href="https://linkedin.com/in/{{ site.linkedin_username }}/en"><i class="fa fa-linkedin-square fa-3x"></i></a>
+			</div>
+
+			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+				<a title="Reddit: /u/{{ site.reddit_username }}" href="https://reddit.com/u/{{ site.reddit_username }}"><i class="fa fa-reddit-square fa-3x"></i></a>
+			</div>
+
+			<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+				<a title="Encrypted Communication" href="/encrypted/"><i class="fa fa-key fa-3x"></i></a>
+			</div>
+		</div>
+	</div>
+</section>
 <section id="latest-post">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 text-center">
-				<a href="/posts/"><h1>Latest Writing</h1></a>
+				<a href="/blog/"><h1 class="title-padding">Latest Writing</h1></a>
 				<h4 style="margin: 0px">{{ site.posts[0].title }}</h4>
 				<small>{{ site.posts[0].date | date_to_string }}</small>
 			</div>
@@ -38,6 +64,7 @@ layout: default
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 text-center">
 				{{ site.posts[0].excerpt }}
+				<a href="{{ site.posts[0].url }}">Coninue reading... </a>
 			</div>
 		</div>
 	</div>

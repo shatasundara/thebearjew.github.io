@@ -1,15 +1,30 @@
 ---
 layout: default
 ---
-<div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
-</div>
+<section id="post">
+  <div class="container">
+    <div class="row title-row">
+      <div class="col-lg-10">
+        <h1>{{ page.title }}</h1>
+        <small class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</small>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10">
+        <article class="post-content">
+          {{ content }}
+        </article>
+        <hr/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
+        <small>If you found this post useful could you hit that button so that others can benefit from it too? Thanks!</small>
+      </div>
+      <div style="padding-top: 0.2em"class="col-lg-4"> 
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="JakeRYoung">Tweet</a> 
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </div>
+    </div>
+  </div>
+</section>
