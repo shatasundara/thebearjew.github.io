@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: Blog            
 description: My writings about tech, social bullshit, and developing
 ---
 <section id="posts">
@@ -10,7 +10,7 @@ description: My writings about tech, social bullshit, and developing
         <ul>
           {% for post in site.posts %}
           <li>
-            <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+            <a href="{{ post.url }}"><h4 class="post-title">{{ post.title }}</h4></a>
             <small>{{ post.date | date: "%B %-d, %Y" }}</small>
           </li>
           {% endfor %}
