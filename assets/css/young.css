@@ -28,7 +28,6 @@ body {
 h1, h2, h3, h4, h5 {
 	font-family: "Open-SansLight";
 	font-weight: 300;
-	margin-bottom: 0;
 }
 
 a {
@@ -86,6 +85,12 @@ a:hover {
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
 	color: white;
 	background-color: rgba(52,152,219,0.5);
+}
+
+.title-row {
+	text-align: center;
+	padding-bottom: 1em;
+	margin-bottom: 0;
 }
 
 #intro-social .fa-twitter {
@@ -208,12 +213,12 @@ a:hover {
 	padding-bottom: 1em;
 }
 
-.title-row {
-	padding-bottom: 1em;
-}
-
 #post {
 	margin-bottom: 11em;
+}
+
+#post h1, #post h2, #post h3, #post h4, #post h5, #post h6 {
+	text-align: center;
 }
 
 footer {
