@@ -16,7 +16,7 @@
   <meta  property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta  property="og:image" content="{% if site.favicon %}{{ site.favicon }}{% endif %}">
   <meta  property="og:type" content="article">
-  <meta  property="og:url" content="{{ page.url | append: site.url }}">
+  <meta  property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta  property="article:author" content="Jacob Young">
   <meta  property="fb:admins" content="100006617118454"> 
 
