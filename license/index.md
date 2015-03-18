@@ -1,10 +1,8 @@
 ---
-layout:page
+layout: page
 title: License
 description: Feel free to improve and modify this site, but include credit where due
 ---
-
-## LICENSE:
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
