@@ -26,6 +26,7 @@
   <meta name="twitter:creator" content="@{{ site.twitter_username }}">
   <meta name="twitter:title" content="{% if post.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"> 
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image:src" content="{% if site.favicon %}{{ site.favicon }}{% endif %}">
   <meta name="twitter:url" content="{{ post.url }}">
   <meta name="twitter:image" content="{% if site.favicon %}{{ site.favicon }}{% endif %}">
   <meta name="twitter:image:width" content="180">
