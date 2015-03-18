@@ -4,4 +4,4 @@ My personal site, portfolio, and blog. Built with [Jekyll](http://jekyllrb.com) 
 ### Posts
 | Title | Description | Post Date |
 | :----- | :--------------- | :------------- |
-| [The Start of Something New](https://jacobyoung.me/posts/the-start-of-something-new) |  Starting my own blog - How I learned to love writing everyday | March 13^th , 2015 |
+| [The Start of Something New](https://jacobyoung.me/posts/the-start-of-something-new) |  Starting my own blog - How I learned to love writing everyday | March 17th , 2015 |
