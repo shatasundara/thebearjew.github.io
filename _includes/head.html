@@ -16,7 +16,7 @@
   <meta  property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta  property="og:image" content="{% if site.favicon %}{{ site.favicon }}{% endif %}">
   <meta  property="og:type" content="article">
-  <meta  property="og:url" content="https://jacobyoung.me{{ page.url }}">
+  <meta  property="og:url" content="{{ page.url | prepend: site.url }}">
   <meta  property="article:author" content="Jacob Young">
   <meta  property="fb:admins" content="100006617118454"> 
 
@@ -26,8 +26,8 @@
   <meta name="twitte:creator" content="{{ site.twitter_username }}">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"> 
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image:src" content="{% if site.favicon %}{{ site.favicon }}{% endif %}">
-  <meta name="twitter:url" content="{{ post.url }}">
+  <meta name="twitter:image:src" content="{{ site.favicon | prepend: site.url }}">
+  <meta name="twitter:url" content="{{ page.url | prepend: site.url }}">
   <meta name="twitter:image:width" content="152">
   <meta name="twitter:image:height" content="152">
   
