@@ -23,6 +23,7 @@
 body {
 	font-family: "Open-SansRegular", "HelveticaNeue-Light" , "Helvetica", san-sarif;
 	font-weight: 200;
+	font-size: 20;
 }
 
 h1, h2, h3, h4, h5 {
@@ -36,6 +37,12 @@ a {
 
 a:hover {
 	color: #16a085;
+}
+
+p {
+	margin: 25px 0;
+	font-size: 20px;
+	line-height: 160%;
 }
 
 .navbar {

@@ -4,13 +4,13 @@ layout: default
 <section id="post">
   <div class="container">
     <div class="row title-row">
-      <div class="col-lg-10">
-        <h1>{{ page.title }}</h1>
-        <small class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</small>
+      <div class="col-lg-8 col-lg-offset-1">
+        <h2>{{ page.title }}</h2>
+        <small>{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</small>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-10">
+      <div class="col-lg-6 col-lg-offset-2">
         <article class="post-content">
           {{ content }}
         </article>
@@ -18,12 +18,8 @@ layout: default
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-8">
-        <small>If you found this post useful could you hit that button so that others can benefit from it too? Thanks!</small>
-      </div>
-      <div style="padding-top: 0.2em"class="col-lg-4"> 
-        <a href="https://twitter.com/share" class="twitter-share-button" data-via="JakeRYoung">Tweet</a> 
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      <div class="col-lg-6 col-lg-offset-2">
+        <small>If you read this, someone else might want to as well. Let them know <a href="https://twitter.com/share" class="twitter-share-button" data-via="JakeRYoung">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></small>
       </div>
     </div>
   </div>

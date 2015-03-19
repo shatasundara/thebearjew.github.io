@@ -6,7 +6,7 @@ categories: Personal
 description: Starting my own blog - How I learned to love writing everyday
 ---
 
-Today marks my first ever blog post. A little narcissistic I know... However, my own blog has been something I've wanted for quite some time.
+Today marks my first blog post. A little narcissistic I know... However, my own blog has been something I've wanted for quite some time.
 
 The first version of a "blog", if you want to call it that, was actually my journal, which I started writing in high school. I had fallen victim to senioritis at the shockingly incorrect time of junior year. I had basically checked out of school by the time my last year of classes were rolling around, so I took leisure in picking those classes.
 
@@ -16,15 +16,13 @@ Over the class' four months, I was challenged in more ways than I ever had been.
 
 The class started to work on me. Through only the requirement of fifteen pages of writing per week, a cynical, probably arrogant, 17 year old kid learned how to speak about his feelings. No sensitive talking circles required, just a lot of individual writing every single day.
 
-The habitual nature of putting every internal and external event on paper stuck with me after that class. When backpacked Europe for a month after High School the process of *downloading* that day's events and thoughts stuck. It turned into such an effective method for reflecting and recharging that I consciously made efforts to continue. 
+The habitual nature of putting every internal and external event on paper stuck with me after that class. When I backpacked Europe for a month after high school the process of *downloading* that day's events and thoughts stuck. It turned into such an effective method for reflecting and recharging that I consciously made efforts to continue. 
 
-Today I use [Day One](http://dayoneapp.com) to hold all of my journalling, no more pen and paper required. Day One is for iOS and  OS X and does an outstanding job of displaying and encouraging great journalling. They fun meta data to add to your entries to help reflect: weather, steps, music, location, time, and more. All these fun data points can remind you or add to an entry in ways your words may not be able to. It's a pretty great solution to a pretty niche problem: making the best journals for yourself, anywhere.
-
-So, I've explained how a private pen and paper "blog" started and developed into something greater. What I haven't explained is why it's even related.
+Today I use [Day One](http://dayoneapp.com) to hold all of my journalling, no more pen and paper required. Day One is for iOS and  OS X and does an outstanding job of displaying and encouraging great journalling. They made fun meta data to add to your entries to help reflect: *weather*, *steps*, *music*, *location*, *time*, and more. All these fun data points can remind you or add to an entry in ways your words may not be able to. It's a pretty great solution to a pretty niche problem: making the best journals for yourself, anywhere.
 
 ### Tying It All Together
 
-My blog is not going to be a stream of personal journaling. Unless expressed otherwise, no one wants to hear about my feelings today, or who I talked to. Instead the blog will build on tools and techniques from personal journalling to be better than a stream of consciousness.
+This blog is not going to be a stream of personal journaling. Unless expressed otherwise, I'm safe to assume no one wants to hear about my feelings today, what I ate, or who I talked to. Instead the blog will build on tools and techniques from personal journalling to be better than a stream of consciousness.
 
 A blog should be refined. Not like *The New York Times*, but polished. The kind an car enthusiast puts on their new BMW or 56' Cadillac. Effort and care is given, but it's far from the trade show shine.
 
