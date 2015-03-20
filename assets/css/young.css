@@ -45,6 +45,11 @@ p {
 	line-height: 160%;
 }
 
+img {
+	max-width: 600px;
+	border-radius: 4px;
+}
+
 .navbar {
 	padding-bottom: 0.4em;
 	padding-top: 0.4em;
