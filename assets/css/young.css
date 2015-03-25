@@ -233,6 +233,11 @@ img {
 	text-align: center;
 }
 
+#post img {
+	max-width: 470px;
+	min-width: 470px;
+}
+
 footer {
 	position: absolute;
 	bottom: relative;

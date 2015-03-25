@@ -4,6 +4,7 @@ title: The Start of Something New
 date: 2015-03-17 15:00
 categories: Personal
 description: Starting my own blog - How I learned to love writing everyday
+published: true
 ---
 
 Today marks my first blog post. A little narcissistic I know... However, my own blog has been something I've wanted for quite some time.
