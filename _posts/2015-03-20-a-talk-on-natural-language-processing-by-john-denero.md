@@ -4,7 +4,7 @@ title: Attending a Natural Language Processing Talk by John DeNero
 date: 2015-03-20 23:04:03
 description: Notes on a talk by Berkeley professor and former Google Translate researcher John DeNiro on Natural Language Processing and Human Computer Interaction
 categories: Programming
-published: true
+published: false
 ---
 
 All of us have done something like this: *Google Translate* > *"Hello"* > *Translate to Dutch* > *Paste* but give little though to what process, or brain other than our own, is doing all of the work.
