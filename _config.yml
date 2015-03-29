@@ -6,6 +6,13 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/" # the subpath of your site, e.g. /blog/
 permalink: /posts/:title
 url: "https://jacobyoung.me" # the base hostname & protocol for your site
+favicon: /assets/images/inverted-apple-touch-icon-152x152.png
+timezone: America/Los_Angeles
+twitter_username: JakeRYoung
+github_username: JacobRYoung
+linkedin_username: jacobryoung
+reddit_username: JewCFroot
+keybase_username: JacobYoung
 keywords: 
     - Jacob Yong
     - JacobYoung
@@ -18,13 +25,8 @@ keywords:
     - software engineer
     - web applications
     - iOS
-favicon: /assets/images/inverted-apple-touch-icon-152x152.png
-timezone: America/Los_Angeles
-twitter_username: JakeRYoung
-github_username: JacobRYoung
-linkedin_username: jacobryoung
-reddit_username: JewCFroot
-keybase_username: JacobYoung
+collections:
+    - projects
 
 # Build settings
 markdown: redcarpet
