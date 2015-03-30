@@ -2,7 +2,7 @@
 title: Jacob Young-Software Engineer
 email: jacob@jacobyoung.me
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a full time student and iOS/front end developer. I write about tech, hacakthons, and developing.
+  I'm a full time student working on transfering to UC Berkeley. I'm also an iOS/front end developer working on several personal projets while exploring new programming paradigms. I write about tech, hacakthons, and developing; you might find something interesting, have a read.
 baseurl: "/" # the subpath of your site, e.g. /blog/
 permalink: /posts/:title
 url: "https://jacobyoung.me" # the base hostname & protocol for your site
