@@ -2,7 +2,7 @@
   image: 
   collaborators: 'Sahil Patel, Kevin Lin'
   event: Hack Jam
-  desciption:
+  desciption: 'Squirtle is a Chroe extension which compresses your entered or highlighted text, and scroll position into a sharebale bit.ly link. Squirtle will scroll and enter the previous information for you or a friend.'
   link: https://github.com/JacobRYoung/Squirtle
 - name: Where to Two
   image: /assets/images/projects/where-to-two.jpg
