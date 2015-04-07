@@ -20,9 +20,9 @@ layout: intro
 <section id="intro-about">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-12 text-center">
+			<div class="col-lg-6 col-lg-offset-3 text-center">
 				<a href="/about/"><h1>About Me</h1></a>
-				<p>{{ site.description }}</p>
+				<p class="text-left">{{ site.description }}</p>
 			</div>
 		</div>
 	</div>
@@ -55,16 +55,15 @@ layout: intro
 <section id="latest-post">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 text-center">
-				<a href="/blog/"><h1 class="title-padding">Latest Writing</h1></a>
+			<div class="col-lg-6 col-lg-offset-3 text-center">
+				<a href="{{ site.posts[0].url }}"><h1 class="title-padding">Latest Post</h1></a>
 				<h4 style="margin: 0px">{{ site.posts[0].title }}</h4>
-				<small>{{ site.posts[0].date | date_to_string }}</small>
+				<small>{{ site.posts[0].date | date: "%b %-d, %Y" }}</small>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 text-center">
 				{{ site.posts[0].excerpt }}
-				<a href="{{ site.posts[0].url }}">Coninue reading... </a>
 			</div>
 		</div>
 	</div>
