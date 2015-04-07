@@ -14,7 +14,7 @@
   <meta  property="og:title" content="{{ post.title }}">
   <meta  property="og:site_name" content="Jacob Young Blog">
   <meta  property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta  property="og:image:url" content="{% if site.favicon %}{{ site.favicon }}{% endif %}">
+  <meta  property="og:image" content="{% if site.favicon %}{{ site.favicon | prepend: site.url }}{% endif %}">
   <meta  property="og:type" content="article">
   <meta  property="og:url" content="{{ page.url | prepend: site.url }}">
   <meta  property="article:author" content="Jacob Young">

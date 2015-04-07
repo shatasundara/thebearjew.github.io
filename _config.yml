@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/" # the subpath of your site, e.g. /blog/
 permalink: /posts/:title
 url: "https://jacobyoung.me" # the base hostname & protocol for your site
-favicon: /assets/images/inverted-apple-touch-icon-152x152.png
+favicon: assets/images/inverted-apple-touch-icon-152x152.png
 timezone: America/Los_Angeles
 twitter_username: JakeRYoung
 github_username: JacobRYoung
