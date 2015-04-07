@@ -141,8 +141,8 @@ img {
 	background-color: #34495E;
 	height: 100vh;
 	width: 100%;
-	background: url(../images/profile-picture.jpg) no-repeat center center fixed;
-	/* background: url(https://i.imgur.com/rc0KKjO.jpg) no-repeat center center fixed; */
+	/* background: url(../images/profile-picture.jpg) no-repeat center center fixed; */
+	background: url(https://i.imgur.com/rc0KKjO.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
