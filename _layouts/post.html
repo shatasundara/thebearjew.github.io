@@ -4,13 +4,13 @@ layout: default
 <section id="post">
   <div class="container">
     <div class="row title-row">
-      <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-10 col-xs-12">
-        <h2>{{ page.title }}</h2>
+      <div class="col-lg-12">
+        <h1>{{ page.title }}</h1>
         <small>{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</small>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-10 col-xs-12">
+      <div class="col-lg-8 col-lg-offset-1 col-md-6 col-md-offset-3 col-sm-10 col-xs-12">
         <article class="post-content">
           {{ content }}
         </article>
@@ -18,7 +18,20 @@ layout: default
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-10 col-xs-12">
+      <div class="col-lg-4 col-lg-offset-1">
+        {% if page.previous %}
+          <small><a href="{{ page.previous.url | prepend: site.url }}">← Previous<br/>{{ page.previous.title | truncate: 30}}</a></small>
+        {% endif %}
+      </div>
+      <div class="col-lg-4 text-right">
+        {% if page.next %}
+          <small><a  href="{{ page.next.url | prepend: site.url }}">Next →<br/>{{ page.next.title | truncate: 30 }}</a></small>
+        {% endif %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-1 col-md-6 col-md-offset-3 col-sm-10 col-xs-12">
+        <hr/>
         <small> If you enjoyed this, someone else might as well let them know <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ page.url | prepend: site.url }}" data-via="JakeRYoung">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></small>
       </div>
     </div>

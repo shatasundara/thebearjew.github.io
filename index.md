@@ -20,12 +20,31 @@ layout: intro
 <section id="intro-about">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 col-lg-offset-3 text-center">
-				<a href="/about/"><h1>About Me</h1></a>
-				<p class="text-left">{{ site.description }}</p>
+			<div class="col-lg-8 col-lg-offset-2 title-row">
+				<h1>About</h1>
+				<small></small>
 			</div>
 		</div>
-	</div>
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<p>I'm a student at <a href="http://dvc.edu">Diablo Valley College</a> working on 
+					transfering to UC Berkeley&#39;s undergraduate Computer Science program.
+				</p>
+				<p>Most of my time is spent writing and learning Objective-C and iOS. I'm 
+					passionate about writing, programming, and properly roasted coffee... 
+					because you know, no one wants to drink motor oil.
+				</p>
+				<p>I love attending hackathons. I've hacked at <a href="http://calhacks.io">CalHacks</a>, <a href="https://www.facebook.com/events/1569464466625216/">
+					HackJam</a>, <a href="http://treehacks.com">
+					TreeHacks</a>, and recently <a href="http://lahacks.%0A%20%20com">LAHacks</a>.
+				</p>
+				<p>Currently I am looking for jobs or internships for summer 2015 and 
+					beyond. If you're interested in filling an entry level position, feel 
+					free to <a href="mailto:jacob@jacobyoung.me">reach out</a> to me and checkout my <a href="../resume/resume.pdf">resume</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
 </section>
 <section id="intro-social">
 	<div class="container"> 
@@ -55,7 +74,7 @@ layout: intro
 <section id="latest-post">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 col-lg-offset-3 text-center">
+			<div class="col-lg-10 col-lg-offset-1 text-center">
 				<a href="{{ site.posts[0].url }}"><h1 class="title-padding">Latest Post</h1></a>
 				<h4 style="margin: 0px">{{ site.posts[0].title }}</h4>
 				<small>{{ site.posts[0].date | date: "%b %-d, %Y" }}</small>

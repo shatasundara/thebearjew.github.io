@@ -2,7 +2,22 @@
 title: Jacob Young-Software Engineer
 email: jacob@jacobyoung.me
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a full time student working on transfering to UC Berkeley. I'm also an iOS/front end developer working on several personal projets while exploring new programming paradigms. I write about tech, hacakthons, and developing; you might find something interesting, have a read.
+  iOS Programmer, Web Developer, and Coffee Purist. Loves making awesome software and eSports. Hates indecisiveness.
+about: > # this means to ignore newlines until "baseurl:"
+  I'm a student at [Diablo Valley College](http://dvc.edu) working on 
+  transfering to UC Berkeley's undergraduate Computer Science program.
+
+  Most of my time is spent writing and learning Objective-C and iOS. I'm 
+  passionate about writing, programming, and properly roasted coffee... 
+  because you know, no one wants to drink motor oil.
+
+  I love attending hackathons. I've hacked at [CalHacks](http://calhacks.io), [HackJam](https://www.facebook.com/events/1569464466625216/), [
+  TreeHacks](http://treehacks.com), and recently [LAHacks](http://lahacks.
+  com). 
+
+  I' m currently looking for jobs or internships for summer 2015 and 
+  beyond. If you're interested in filling an entry level position, feel 
+  free to [reach out](mailto:{{ site.email }}) to me and checkout my [resume](../resume/resume.pdf)
 baseurl: "/" # the subpath of your site, e.g. /blog/
 permalink: /posts/:title
 url: "https://jacobyoung.me" # the base hostname & protocol for your site

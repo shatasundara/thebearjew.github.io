@@ -3,19 +3,26 @@ layout: default
 title: Blog            
 description: My writings about tech, social bullshit, and developing
 ---
-<section id="posts">
+
+<section id="post">
+  {% for post in site.posts %}
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <ul>
-          {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url }}"><h3 class="post-title">{{ post.title }}</h3></a>
-            <small>{{ post.date | date: "%B %-d, %Y" }}</small>
-          </li>
-          {% endfor %}
-        </ul>
+        <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+        <small>{{ post.date | date: "%b %-d, %Y" }}{% if post.meta %} • {{ post.meta }}{% endif %}</small>
       </div>
     </div>
   </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-1">
+        <article class="post-content">
+          {{ post.content }}
+        </article>
+      </div>
+    </div>
+    <hr/>
+  </div>
+  {% endfor %}
 </section>
