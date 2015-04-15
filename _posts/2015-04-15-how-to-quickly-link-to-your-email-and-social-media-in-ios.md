@@ -14,7 +14,7 @@ Entering my email into every website and app in iOS is a massive pain and signif
 
 So I took it a step further and attempted to create "quick pastes" for all of my commonly entered fields. As a result I've come up with a fun little paradigm for turning any personal link (email, Twitter, Google, Github, reddit) into a memorable text shortcut. It works as follows:
 
-- Attempt to abbreviate the "usernme" into one or two characters
+- Attempt to abbreviate the "username" into one or two characters
 - The @ symbol
 - Then attempt to abbreviate the website, apps, domain, email service, etc. into one or two characters
 - Concatenate the above in order and you have a shortcut!
