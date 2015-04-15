@@ -8,8 +8,6 @@ categories: Tech
 published: true
 ---
 
-# How to Quickly Link to Your Social Media in iOS
-
 Not very long ago I discovered a simple and amazing shortcut for iOS from reddit. I created a text shortcut where "@@" would replace my primary email address anywhere I entered it in my phone. I added this text shortcut by going to *Settings* > *General* > *Keyboard* > *Shortcuts* then entering my email as the "phrase" and *@@* as the "shortcut".
 
 Entering my email into every website and app in iOS is a massive pain and significantly difficult on a mobile keyboard. Over the last year, this small hack has saved me **hours** when logging in and out of multiple Google, Facebook, and Twitter accounts, as well as linking to others.
