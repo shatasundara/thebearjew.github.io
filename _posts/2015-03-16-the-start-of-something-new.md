@@ -2,8 +2,9 @@
 layout: post
 title: The Start of Something New
 date: 2015-03-17 15:00
-categories: Personal
 description: Starting my own blog - How I learned to love writing everyday
+categories: Personal
+author: Jacob Young
 published: true
 ---
 

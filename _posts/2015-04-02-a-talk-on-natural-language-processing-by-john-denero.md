@@ -3,6 +3,7 @@ layout: post
 title: Attending a Talk on Natural Language Processing by John DeNero
 description: "How computers understand and translate human language and the code that does it"
 date: 2015-04-06 16:10:14
+author: Jacob Young
 categories: Programming
 published: true
 ---
