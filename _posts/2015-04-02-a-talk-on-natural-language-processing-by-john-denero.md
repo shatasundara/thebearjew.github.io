@@ -8,7 +8,7 @@ categories: Programming
 published: true
 ---
 
-![The Talk](/assets/images/a-talk-on-natural-language-processing-by-john-denero/nlp-denero-1.jpg)
+![The Talk]({{ "/assets/images/a-talk-on-natural-language-processing-by-john-denero/nlp-denero-1.jpg" | prepend: site.url }})
 
 All of us have done something like this: *Google Translate* > *"Hello"* > *Translate to Dutch* > *Paste*, but give little thought to what process is doing all of the work.
 
@@ -34,7 +34,7 @@ To address this, he opened with this simple sentence...
 
 Besides being a relevant concept in Computer Science, it can be interpreted and broken up in many ways. Each word has an isolated meaning which is the simplest and an implied meaning in context of the other words. For example "programs" can be any of these 
 
-![definitions](/assets/images/a-talk-on-natural-language-processing-by-john-denero/syntactic-ambiguity.png)
+![definitions]({{ "/assets/images/a-talk-on-natural-language-processing-by-john-denero/syntactic-ambiguity.png" | prepend: site.url }})
 
 Or the sentence can be taken as "Programs must be written. For people to read". Such that people will be illiterate unless programs are written.
 
@@ -70,7 +70,7 @@ The way many Natural Language Processors are doing in scripting languages, such 
 
 This is done by comparing each word and its relations to sentence in order to make sense of grammatical structure. For example, "programs must be written for people to read " would would be broken down into its subject,  noun phrases, verb phrases, modifiers, and sub clauses.
 
-![Sentence Structure](/assets/images/a-talk-on-natural-language-processing-by-john-denero/sentence-structure.png)
+![Sentence Structure]({{ "/assets/images/a-talk-on-natural-language-processing-by-john-denero/sentence-structure.png" | prepend: site.url }})
 
 Parsing sentences in a tree structure makes it extremely easy for computers to navigate and understand the relationship between individual words and the sentence. If you're looking for the hardcore math and code behind actually finalizing a meaning for a sentence, the [Berkeley Natural Language Processing Group](http://nlp.cs.berkeley.edu/index.shtml) of which John DeNero was a member, is an excellent resource. Also, the [Natural Language Toolkit](http://www.nltk.org/book/) explains programmatic implementation for Python.
 
