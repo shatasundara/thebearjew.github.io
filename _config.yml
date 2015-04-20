@@ -19,7 +19,7 @@ about: > # this means to ignore newlines until "baseurl:"
   beyond. If you're interested in filling an entry level position, feel 
   free to [reach out](mailto:{{ site.email }}) to me and checkout my [resume](../resume/resume.pdf)
 baseurl: "/" # the subpath of your site, e.g. /blog/
-permalink: /posts/:title
+permalink: /blog/:title
 url: "https://jacobyoung.me" # the base hostname & protocol for your site
 favicon: assets/images/inverted-apple-touch-icon-152x152.png
 timezone: America/Los_Angeles
