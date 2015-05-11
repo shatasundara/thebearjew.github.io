@@ -47,7 +47,7 @@ p {
 
 img {
 	max-width: 600px;
-	border-radius: 8px;
+	border-radius: 5px;
 }
 
 .navbar {
@@ -142,7 +142,7 @@ img {
 	height: 100vh;
 	width: 100%;
 	/* background: url(../images/profile-picture.jpg) no-repeat center center fixed; */
-	background: url(https://i.imgur.com/rc0KKjO.jpg) no-repeat center center fixed;
+	background: url(http://i.imgur.com/F7k9gMM.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -227,9 +227,9 @@ img {
 }
 
 #post img {
-	margin-left: -20px;
-	max-width: 100%;
-	min-width: 100%;
+	margin-left: -15px;
+	max-width: 80%;
+	min-width: 80%;
 
 }
 
