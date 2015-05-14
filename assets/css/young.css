@@ -24,6 +24,7 @@ body {
 	font-family: "Open-SansRegular", "HelveticaNeue-Light" , "Helvetica", san-sarif;
 	font-weight: 200;
 	font-size: 20;
+	color: rgb(46, 46, 46);
 }
 
 h1, h2, h3, h4, h5 {
@@ -32,11 +33,11 @@ h1, h2, h3, h4, h5 {
 }
 
 a {
-	color: #3498DB;
+	color: rgb(46, 46, 46);
 }
 
 a:hover {
-	color: #16a085;
+	color: #3498DB;
 }
 
 p {
