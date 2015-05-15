@@ -17,3 +17,5 @@ Feel free to reach out to me about anything and everything.
 | [The Start of Something New](https://jacobyoung.me/posts/the-start-of-something-new) |  Starting my own blog - How I learned to love writing everyday | March 17th , 2015 |
 
 Table is currently out of date while redesigning the site
+
+Also, ben burwell has a pretty awesom site. Got a lot of inspiration for the new design from him.
