@@ -21,3 +21,5 @@ Table is currently out of date while redesigning the site
 Also, ben burwell has a pretty awesom site. Got a lot of inspiration for the new design from him.
 
 Finally, finals finally suck.
+
+Almost done with finals
