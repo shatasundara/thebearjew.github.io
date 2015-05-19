@@ -25,3 +25,5 @@ Finally, finals finally suck.
 Almost done with finals
 
 one more day
+
+Tomorrow is the last day
