@@ -1,0 +1,78 @@
+=================================================================
+https://keybase.io/jacobyoung
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jacobyoung.me
+  * I am jacobyoung (https://keybase.io/jacobyoung) on keybase.
+  * I have a public key with fingerprint 099A 18D5 5F20 E2E8 10EE  960E DFAE D452 06F8 A9FA
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.8.18"
+        },
+        "key": {
+            "eldest_kid": "0101e9aa5160f81e4d13bcf324f6a9c059101c17b9113194140ae24683edbef11f0f0a",
+            "fingerprint": "099a18d55f20e2e810ee960edfaed45206f8a9fa",
+            "host": "keybase.io",
+            "key_id": "dfaed45206f8a9fa",
+            "kid": "0101e9aa5160f81e4d13bcf324f6a9c059101c17b9113194140ae24683edbef11f0f0a",
+            "uid": "d6372af9bc0efd2e5c115fdc513f7819",
+            "username": "jacobyoung"
+        },
+        "service": {
+            "hostname": "jacobyoung.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1442034880,
+    "expire_in": 157680000,
+    "prev": "40d62a4d0dcad14b1465d4998efd439eea32eef9baca66a9094173998bcd6853",
+    "seqno": 44,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owGtkn9QFGUYx+9ASWkUxqEpiR/Xhngonfvur9u9FMY0xGG0IECF8trd911uEW7P
+2z0MwZyCQWWyGNAyMWaEUIt+TBylpBg4hKBTMyhJSYwG5RAygTEyNxjRrlEzTf3Z
+/rX7Pp/neb7f775Vi4JNoeYbH/VlhATemzZf/lkwZU22tJdgggKLMUcJJhbIyK0Z
+b26+EGEObAcqFngV2WTF4lYgsuWrljkmEStCXlVW3DqF21gbYLE9iQZvdKMCiFTN
+uUOGRhXgAHE8TwMGl1iAKAhIQZRIgpIYnhNxmtMBEdgFDgAScBSgcB4RFMOSCApI
+AkDCJZzXF0qyOw95PV7ZkIjhHMcDFtK0ROCIQCzAEeIYHEGJR5CiCZyRWJ6TjEaX
+omr/MIPdV+q8L+8/+P9Zt+/PPQxpJ3iJE0QcSZBAtAgALUGRBqRkZwFngCryzgWf
+z4uKUKz43HlGrPp5kSwiI1rDy78Ym/6diHm8iqaISoFecmmaR3UYrVqxx2B3IcE5
+N8UpyG6oR6l3HPv7HwIdFTXZmAsoisBJimXxRAy95JG9yCkbBG1nWFx/jEWoSJ9J
+4ZAheAriUOQhoARAMTSkOI7V/VEkhxBPEgjpjnmRZ/TIcD0jO6nXBREyLE1ihrGd
+bgVzUJQulM/TZ6pynpvXfF6E7TkQFDXPZA41hcwPMm6pKXRh+F9XV30ubDbH+qu7
+6/y4PyYhcmb5OWavbGssj/ow5lKdQ2tNmvJ8EOaubnzMMvPW6bPxn5NtuDWibDBu
+cn7aCyW26wM1jwfHL77NT+RW9zbcPM9Pln3ftA8e3W+9OIU/sDbQnjnY6x8iidX1
+IQuWxC48dKb148Du3yzD1xd4A9+dTCiPrrWOd3Tnei61bPdtTB1J2FrE3itprS1t
+Mz07/UqTPYOomTU/XFjNvi33jBSmXCl3HblbL0aMxqpLw2OmsjvPNSXSPaWOq2u4
+PvW18c/SNWkZ3vVo73qVGWND4g9VpU92bRqIe33x5l+qilN+quXpU/ZgmJwLYyxg
+YrCh0rnhBPF1RlDzeGFmzdnl35wQzLFbkynWzx7MvnW82bYpet2rca7umKs5W55+
+P+rbawOh6dyKW7Bh2lMw+uOR/qqw7neP9jbZI6Knx97Ifn5RSmr0hptBbc8gy77S
+io5P+k8qs3VLVtiJwzt9K5tTjs3Eta+tTKo4U1vo7CqveYhSDk5eMG0bvtcTFHn6
+qZejtje9c0f74vhgZWfPyFfJJbbdmak1kUW3q8qsW/ZL7Wl1F6P8/fFDgbR1OVnz
+uqe+vLB+2dANwlXRcK3vieDOyuGWR05d3jgz/KL26R3lyaxAdcuuu1eEN2drt62M
+zv891VXqPzzesWp17EQgeI3PvNSaFBj7oX5zP7Y3vPHBVaN/AA==
+=SDEz
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jacobyoung
+
+==================================================================
+
