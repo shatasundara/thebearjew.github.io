@@ -1,14 +1,25 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Jacob Young
+email: jacob@jry.io
+short-description: > # this means to ignore newlines until "long-description:"
+    Student - developer - dvcoders president
+long-description: > # ignore newlines until "baseurl:"
+    Hi, I'm Jake.
+    
+    I'm a college student working on a Junior transfer to one of the elusive UC schools for Computer Science.
+    For the last several months I have been the president of dvcoders - a student club which learns and builds with technologies outside of academic Computer Science.
+    
+    Recently I've been working on web development, but I have previous experience with iOS and like to jump between the two.
+    
+    
+    I love hackathons and organizing them. So far I've help organize and run DVhacks, Hack Jam, and Cal Hacks.
+    Before these days, I atteneded Cal Hacks 1.0, Tree Hacks, LAHacks, and Hack Jam (winning first place).
+
+    If you'd like to work together, lets talk - I learn fast. 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://jry.io" # the base hostname & protocol for your site
+twitter_username: jakeryoung
+github_username:  thebearjew
 
 # Build settings
 markdown: kramdown
