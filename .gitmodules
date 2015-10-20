@@ -1,3 +1,0 @@
-[submodule "blog-posts"]
-	path = _posts
-	url = https://github.com/thebearjew/blog-posts.git
