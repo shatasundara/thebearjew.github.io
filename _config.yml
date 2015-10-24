@@ -1,7 +1,8 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           /:title
+# Use of '/:title' permalinks allows for 'base.io/title' urls
+permalink:           /posts/:title
 relative_permalinks: true
 
 # Setup
@@ -15,8 +16,8 @@ Me:
   name:              Jacob Young
   email:             jacob@jry.io
   twitter:
-    username:        jakeryoung
-    url:             https://twitter.com/jakeryoung
+    username:        jryio
+    url:             https://twitter.com/jryio
   github:
     username:        thebearjew
     url:             https://github.com/thebearjew

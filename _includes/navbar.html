@@ -1,0 +1,10 @@
+<header class="masthead">
+  <h3 class="masthead-title">
+    <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+  </h3>
+  <div class="navbar-pages">
+    {% for  page in site.html_pages %}
+      <a href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title }}">{{ page.title }}</a>
+    {% endfor %}
+  </div>
+</header>
