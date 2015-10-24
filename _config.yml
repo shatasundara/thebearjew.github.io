@@ -8,8 +8,14 @@ relative_permalinks: true
 # Setup
 title:               Jacob Young
 url:                 http://jry.io
-paginate:            1
 baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
 
 # About/contact
 Me:
@@ -24,10 +30,3 @@ Me:
   pgp:
     keybase:         https://keybase.io/jacobyoung
 
-
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
