@@ -1,15 +1,28 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink:           /:title
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Jacob Young
+url:                 http://jry.io
 paginate:            1
 baseurl:             ""
+
+# About/contact
+Me:
+  name:              Jacob Young
+  email:             jacob@jry.io
+  twitter:
+    username:        jakeryoung
+    url:             https://twitter.com/jakeryoung
+  github:
+    username:        thebearjew
+    url:             https://github.com/thebearjew
+  pgp:
+    keybase:         https://keybase.io/jacobyoung
+
 
 # Assets
 #
@@ -17,14 +30,3 @@ baseurl:             ""
 sass:
   sass_dir:          _sass
   style:            :compressed
-
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
-
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
