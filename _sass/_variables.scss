@@ -1,0 +1,20 @@
+// These are commonly used/changed attributes across SASS files
+
+// Font
+$fullscreen-font: 22px;
+$smallscreen-font: 18px;
+$font-weight: 300;
+
+// Layout
+$container-width: 38rem;
+
+// Color/Styling
+$main-background: #333;                               // Dark Grey - 1d2120 
+$theme-color: #F7B757;                                // Gold/Orange
+$text-color: #E8E8E9;                                 // B5B5BB7
+$navbar-links: #FFCA7C;
+$message-color: #FFCA7C;
+// RGBA versions
+$theme-color-rgba: rgba(247, 183, 87, 0.3);
+$navbar-links-rgba: rgba(255, 202, 124, 0.4);
+$message-color-rgba: rgba(255, 202, 124, 0.4);

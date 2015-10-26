@@ -16,33 +16,31 @@ body {
 
 html {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 18px;
+  font-weight: $font-weight;
+  font-size: $smallscreen-font;
   line-height: 1.5;
 
   @media (min-width: 38em) {
-    font-size: 22px;
+    font-size: $fullscreen-font;
   }
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
-  /* Deep blue/brown */
-  /* background-color: #1d2120; */
+  color: $text-color;
+  background-color: $main-background;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
 // No `:visited` state is required by default (browsers will use `a`)
 a {
-  color: #fd7f05;
+  color: $theme-color;
   text-decoration: underline;
 
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
-    background-color: rgba(253, 127,5, 0.1);
+    background-color: $theme-color-rgba;
     text-decoration: none;
     -webkit-transition: background-color 0.1s ease;
     -moz-transition: background-color 0.1s ease;
