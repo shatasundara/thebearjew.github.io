@@ -5,7 +5,7 @@
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom:  3rem;
+  margin-bottom:  2rem;
   display: inline-block;
 }
 
@@ -33,9 +33,10 @@
 /* Custom CSS for main page "Hi, I'm Jacob" section */
 .masthead.hero {
   width: 100%;
-  color: #fd7f05;
+  color: $theme-color;
   padding-top: 0;
   margin-bottom: 0.5rem;
+
   h1 {
     font-size: 2.3rem;
   }

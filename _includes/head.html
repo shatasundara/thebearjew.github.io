@@ -7,7 +7,7 @@
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }}
+      {{ site.title }} &middot; @{{ site.me.twitter.username }}
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}

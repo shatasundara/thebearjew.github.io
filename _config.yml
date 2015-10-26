@@ -18,7 +18,7 @@ sass:
   style:            :compressed
 
 # About/contact
-Me:
+me:
   name:              Jacob Young
   email:             jacob@jry.io
   twitter:
