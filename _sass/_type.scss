@@ -74,8 +74,8 @@ abbr {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  color: #b5b5b7;
+  border-left: .25rem solid $theme-color-rgba;
 
   p:last-child {
     margin-bottom: 0;
