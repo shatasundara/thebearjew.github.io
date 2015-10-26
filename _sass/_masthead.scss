@@ -32,3 +32,13 @@
     color: #505050;
   }
 }
+
+/* Custom CSS for main page "Hi, I'm Jacob" section */
+.masthead.hero {
+  width: 100%;
+  color: #fd7f05;
+  margin-bottom: 1rem;
+  h1 {
+    font-size: 2.3rem;
+  }
+}
