@@ -9,9 +9,16 @@ $font-weight: 300;
 $container-width: 38rem;
 
 // Color/Styling
-$main-background: #333;                               // Dark Grey - 1d2120 
-$theme-color: #F7B757;                                // Gold/Orange
-$text-color: #E8E8E9;                                 // B5B5BB7
+// Light Theme:
+//    main-background: #fff
+//    text-color:      #515151
+// Dark Theme:
+//    main-background: #333
+//    text-color:      #E9E9E9
+// Dark Grey - 1d2120 
+$main-background: #333;
+$theme-color: #F7B757;
+$text-color: #E8E8E9;
 $navbar-links: #FFCA7C;
 $message-color: #FFCA7C;
 // RGBA versions

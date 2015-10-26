@@ -27,6 +27,8 @@
 
   a {
     color: $navbar-links;
+    text-decoration: none;
+    background-color: $navbar-links-rgba;
   }
 }
 
@@ -34,7 +36,8 @@
 .masthead.hero {
   width: 100%;
   color: #fd7f05;
-  margin-bottom: 1rem;
+  padding-top: 0;
+  margin-bottom: 0.5rem;
   h1 {
     font-size: 2.3rem;
   }
