@@ -7,6 +7,7 @@ relative_permalinks: true
 
 # Setup
 title:               Jacob Young
+short_title:         JRY
 url:                 http://jry.io
 baseurl:             ""
 

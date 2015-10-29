@@ -16,11 +16,14 @@ $container-width: 38rem;
 //    main-background: #333
 //    text-color:      #E9E9E9
 // Dark Grey - 1d2120 
-$main-background: #333;
+$main-background: #fff;
 $theme-color: #F7B757;
-$text-color: #E8E8E9;
+$text-color: #515151;
 $navbar-links: #FFCA7C;
 $message-color: #FFCA7C;
+// Dark Versions
+$dark-background: #333;
+$dark-text-color: #E8E8E9; 
 // RGBA versions
 $theme-color-rgba: rgba(247, 183, 87, 0.3);
 $navbar-links-rgba: rgba(255, 202, 124, 0.4);
