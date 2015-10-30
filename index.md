@@ -30,7 +30,7 @@ If you're wordy, send an email [{{ site.me.email }}](mailto:{{ site.me.emial }})
 
 Currently I am the president of DVC's first programmer/hacker club - [dvcoders](https://dvcoders.com).
 
-I noticed that nearly all CS students had a lack of knowledge of real-world programming practices. **No one knew how to use Git/Github at all!**
+At DVC, we noticed that nearly all CS students had a lack of knowledge of real-world programming practices. **No one knew how to use Git/Github at all!**
 
 dvocders introduces students to new concepts and real world practices like RESTful APIs, JavaScript, and Git. We also support members in their side projects by coding and debugging with them.
 
