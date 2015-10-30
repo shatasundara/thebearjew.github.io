@@ -19,14 +19,22 @@
   margin-top: 0;
 }
 
-// Meta data line below post title
+// Date moved below title on smaller screens
 .post-date {
   display: block;
-  margin-top: -.5rem;
+  margin-top: -0.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
 }
 
+// On large screens float date to left
+@media(min-width: 50rem) {
+  .post-date {
+    float: left;
+    margin-top: -2.2rem;
+    margin-left: -8rem;
+    color: #9a9a9a;
+  }
+}
 
 // Related posts
 .related {
