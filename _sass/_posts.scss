@@ -25,6 +25,7 @@
   display: block;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
+  color: #a9a9a9;
 
   .post-date {
     display: inline-block;
@@ -35,26 +36,26 @@
   }
 }
 // On large screens float date to left
-@media(min-width: 50rem) {
+@media(min-width: 53rem) {
   .post-data-elements {
     display: inline-block;
     float: left;
     margin-top: 3px;
     margin-left: -13rem;
-    color: #a9a9a9;
     font-size: inherit;
-    vertical-align: center;
+    vertical-align: middle;
   }
+   .post-date {
+      max-width: 190px;
+      word-wrap: break-word;
+   }
 }
 
 #theme-toggle {
 }
 
-// Date moved below title on smaller screens
 .post-date {
   display: block;
-  max-width: 190px;
-  word-wrap: break-word;
   border-left: 1px solid #a9a9a9;
   padding-left: 5px;
 }
