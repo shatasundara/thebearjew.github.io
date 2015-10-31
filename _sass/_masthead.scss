@@ -27,11 +27,10 @@
   display: inline-block;
   float: right;
   a {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     color: $navbar-links;
     text-decoration: none;
   }
-  
   // Custom alignment for navbar-intro.html
   &.intro {
     float: left;

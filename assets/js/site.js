@@ -21,14 +21,14 @@
   function enableDarkTheme() {
     isDarkTheme = true;
     Cookies.set('dark', 'true', {expiration: 90, path: '/'});
-    themeToggle.innerHTML = 'light-theme';
+    // themeToggle.innerHTML = 'light-theme';
     document.body.classList.add('dark-background');
     document.body.classList.add('dark-text-color');
   }
   function disableDarkTheme() {
     isDarkTheme = false;
     Cookies.remove('dark');
-    themeToggle.innerHTML = 'dark-theme';
+    // themeToggle.innerHTML = 'dark-theme';
     document.body.className = '';
   }
 })();
