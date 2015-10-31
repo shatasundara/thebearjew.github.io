@@ -4,6 +4,8 @@ title: Home
 ---
 # Hi, I'm Jacob
 
+{% include navbar-intro.html %}
+
 <br>
 
 I'm a second-year Computer Science student at [Diablo Valley College](https://en.wikipedia.org/wiki/Diablo_Valley_College) working on transfering to UC Berkeley. 
@@ -34,8 +36,4 @@ At DVC, we noticed that nearly all CS students had a lack of knowledge of real-w
 
 dvocders introduces students to new concepts and real world practices like RESTful APIs, JavaScript, and Git. We also support members in their side projects by coding and debugging with them.
 
----
-
-So yeah - I'm Jacob. Checkout some of these things.
-
-{% include navbar-intro.html %}
+{% include footer.html %} 

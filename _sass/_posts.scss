@@ -5,7 +5,7 @@
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 3rem;
 }
 
 // Blog post or page title
@@ -17,6 +17,7 @@
 .page-title,
 .post-title {
   margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 // Date moved below title on smaller screens
@@ -30,8 +31,8 @@
 @media(min-width: 50rem) {
   .post-date {
     float: left;
-    margin-top: -2.2rem;
-    margin-left: -8rem;
+    margin-top: -54px;
+    margin-left: -7rem;
     color: #9a9a9a;
   }
 }
