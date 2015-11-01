@@ -8,9 +8,34 @@
   padding-right: 1.5rem;
   margin-left:  auto;
   margin-right: auto;
+  margin-bottom: 4rem;
 }
 
 footer {
   margin-top: 2rem;
-  margin-bottom: 10rem;
+  padding-bottom: 5rem;
+}
+
+footer #post-footer {
+  text-align: center;
+}
+
+footer .author {
+  float: left;
+}
+
+footer .twitter-share-button {
+  float: right;
+  margin-top: 5px;
+  vertical-align: middle;
+}
+
+footer .social {
+  position: relative;
+  display: inline-block;
+
+  i {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
 }
