@@ -12,6 +12,15 @@ url:                 http://jry.io
 baseurl:             ""
 images_path:           "/assets/images/"
 
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      is_post: true
+
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.

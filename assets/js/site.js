@@ -8,7 +8,9 @@
     enableDarkTheme();
   }
 
-  themeToggle.addEventListener('click', switchTheme);
+  if (themeToggle) {
+    themeToggle.addEventListener('click', switchTheme);
+  }
   function switchTheme(e) {
     e.preventDefault();
     if(!isDarkTheme) {

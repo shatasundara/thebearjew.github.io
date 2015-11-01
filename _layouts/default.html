@@ -7,9 +7,11 @@
       <main>
         {{ content }}
       </main>
-      {% for post in site.posts %}
-        {% if page.title == post.title %}{% include footer-post.html %}{% endif %}
-      {% endfor %}
+      {% if page.is_post %}
+        {% include footer-post.html %}
+      {% else %}
+        {% include footer-intro.html %}
+      {% endif %}
     </div>
     {% include js.html %}
   </body>
