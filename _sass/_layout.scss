@@ -16,18 +16,19 @@ footer {
   padding-bottom: 5rem;
 }
 
-footer#post-footer {
-  text-align: center;
-}
-
 footer .author {
   float: left;
 }
 
 footer .twitter-share-button {
   float: right;
-  margin-top: 5px;
+  margin-top: 6px;
   vertical-align: middle;
+}
+
+// Center align Font Awesome icons in footer
+footer#post-footer {
+  text-align: center;
 }
 
 footer .social {
