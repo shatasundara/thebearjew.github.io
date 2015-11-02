@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   {% include head.html %}
   <body>
     <div class="container content">
@@ -10,7 +10,7 @@
       {% if page.is_post %}
         {% include footer-post.html %}
       {% else %}
-        {% include footer-intro.html %}
+        {% include footer.html %}
       {% endif %}
     </div>
     {% include js.html %}
