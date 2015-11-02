@@ -4,8 +4,8 @@ layout: default
 <article class="post">
   <h2 class="post-title">{{ page.title }}</h2>
     <div class="post-data-elements">
-      <a href="#" id="theme-toggle">Theme</a>
       <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: "%B %-d, %Y" }}</time>
+      <a href="#" id="theme-toggle">Theme</a>
     </div>
   {{ content }}
 </article>
