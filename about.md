@@ -11,7 +11,9 @@ You'll probably find me writing about things I like and learn: hackathons, Git/G
 ### Hackathons
 I won the first Hackathon I went to (*[Hack Jam](http://hackjam.io)* by [Hackers@Berkeley](http://hackersatberkeley.com)) by making the Chrome extension "[Squirtle](https://github.com/thebearjew/squritle)".
 
-Since then, I caught the hackathon bug. Recently I've had the great opportunity to be an organizer and volunteer for [Cal Hacks 2.0](http://calhacks.io) - the largest colligate hackathon ever - and this year's [Hack Jam](http://hackjam.io).
+Since then, I caught the hackathon bug: I've been to [MHacks](http://mhacks.org), [TreeHacks](http://treehacks.com), and [LAHacks](http://lahacks.com)
+
+Recently I've had the great opportunity to be an organizer and volunteer for [Cal Hacks 2.0](http://calhacks.io) - the largest colligate hackathon ever - and this year's [Hack Jam](http://hackjam.io).
 
 At Cal Hacks 2.0 I was a lead volunteer and ended up helping the amazing organizers halfway through the event. I helped with check-in, unloaded trucks of swag/food, helped sponsors setup, configure audio/video throughout California Memorial Stadium, and served/unloaded food.
 
