@@ -1,7 +1,7 @@
 <header class="masthead hero">
   <div class="navbar-pages intro ">
     {% for page in site.html_pages %}
-      {% if page.url == '/404.html' or page.url =='/index.html' %}{% continue %}{% endif %}
+      {% if page.title == "404: Page not found" or page.title == "Home" %}{% continue %}{% endif %}
       <a href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title }}">/{{ page.title }}</a>
     {% endfor %}
   </div>
