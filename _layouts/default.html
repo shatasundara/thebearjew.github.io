@@ -9,7 +9,7 @@
       </main>
       {% if page.is_post %}
         {% include footer-post.html %}
-      {% else %}
+      {% elsif page.title == "Home" %}
         {% include footer.html %}
       {% endif %}
     </div>

@@ -33,6 +33,6 @@ dvocders introduces students to new concepts and real world practices like RESTf
 
 ### Reading List
 
-Everything from cryptography and Alana Turing to Religion and Spy Novels. I'm great at adding books, not so great at keeping up.
+Everything from Cryptography to Economics; Spy Novels to Alan Turing. I'm great at adding books, not so great at keeping up with reading them.
 
-Check it out [here]()
+Check it out [here](), would love to hear your thoughts!
