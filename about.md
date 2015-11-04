@@ -35,10 +35,10 @@ dvocders introduces students to new concepts and real world practices like RESTf
 
 ### Stalk Me (don't actually)
 
-[<i class="fa fa-twitter"></i>]({{ site.me.twitter.url }}) - I'm here a lot, tweets are fast and easy
+[<i class="fa fa-twitter"></i>]({{ site.twitter.url }}) - I'm here a lot, tweets are fast and easy
 
-[<i class="fa fa-github"></i>]({{ site.me.github.url }}) - Find or fix anything I've worked on
+[<i class="fa fa-github"></i>]({{ site.github.url }}) - Find or fix anything I've worked on
 
-[<i class="fa fa-linkedin-square"></i>]({{ site.me.linkedin.url }}) - (::puts on professional face::)
+[<i class="fa fa-linkedin-square"></i>]({{ site.linkedin.url }}) - (::puts on professional face::)
 
-[<i class="fa fa-envelope-o"></i>](mailto:{{ site.me.email }}) - When you're feeling wordy
+[<i class="fa fa-envelope-o"></i>](mailto:{{ site.email }}) - When you're feeling wordy

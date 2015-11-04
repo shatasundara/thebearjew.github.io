@@ -31,18 +31,16 @@ sass:
   style:            :compressed
 
 # About/contact
-me:
-  name:              Jacob Young
-  email:             jacob@jry.io
-  twitter:
-    username:        jryio
-    url:             https://twitter.com/jryio
-  github:
-    username:        thebearjew
-    url:             https://github.com/thebearjew
-  linedin:
-    username:        jacobryoung
-    url:             https://linkedin.com/in/jacobryoung
-  pgp:
-    keybase:         https://keybase.io/jacobyoung
-
+#
+# 
+name:              Jacob Young
+email:             jacob@jry.io
+twitter:
+  username:        jryio
+  url:             https://twitter.com/jryio
+github:
+  username:        thebearjew
+  url:             https://github.com/thebearjew
+linedin:
+  username:        jacobryoung
+  url:             https://linkedin.com/in/jacobryoung
