@@ -3,11 +3,10 @@
     <a href="{{ site.baseurl }}/" title="JRY">{{ site.short_title }}</a>
   </h3>
   <div class="navbar-pages">
-    {% for page in site.html_pages %}
-      {% if page.title == "404: Page not found" or page.title == "Home" %}
-        {% continue %}
+    {% for page in site.pages %}
+      {% if page.is_navbar %}
+        <a href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title }}">/{{ page.title }}</a>
       {% endif %}
-      <a href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title }}">/{{ page.title }}</a>
     {% endfor %}
   </div>
 </header>
