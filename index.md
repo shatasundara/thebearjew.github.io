@@ -8,10 +8,19 @@ title: Home
 
 <br>
 
-I'm a second-year Computer Science student at [Diablo Valley College](https://en.wikipedia.org/wiki/Diablo_Valley_College) working on transfering to UC Berkeley. 
+I'm a student, and a programmer - but not a student programer.
 
-I love to make things with code. Right now I'm learning new languages, libraries, and frameworks (iOS/Web). I particularly enjoy JavaScript and Python, though I still love Objective-C and Swift.
+I love to make things with code. Right now I'm working with Python and JavaScript (Node, SocketIO) - though I still love iOS and *[[Objective-C alloc] init]*.
 
-### Writing
+You'll find me planning or helping with hacker community events like hackathons or workshops throughout the year. I love going to developer meetups and talking to awesome people, but that usually means I need to pretend like I actually have a job... Want to change that? --> [Lets talk](mailto:{{ site.email }})
 
+--- 
 
+### Latest Post
+
+{% assign post = site.posts.first %}
+{% assign content = post.content | remove: '<p>' | remove: "</p>" %}
+
+#### [{{ post.title | truncate: 80 }}]({{ post.url }})
+
+> <small>{{ content | split: '<!-- more -->' | first }}</small>
