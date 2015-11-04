@@ -1,7 +1,10 @@
 (function (){
   var themeToggle = document.getElementById('theme-toggle')
+  // Grabs document.cookie with name "dark" 
+  // To see if the user has selected the dark theme
   var darkThemeCookie = Cookies.get('dark')
   var isDarkTheme = false
+  // Enable dark theme if the user has already selected
   if (darkThemeCookie) {
     isDarkTheme = true
     enableDarkTheme()

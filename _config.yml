@@ -13,6 +13,8 @@ baseurl:             ""
 images_path:           "/assets/images/"
 
 # Defaults
+#
+# Gives all "posts" the variable is_post = true
 defaults:
   -
     scope:
@@ -38,6 +40,9 @@ me:
   github:
     username:        thebearjew
     url:             https://github.com/thebearjew
+  linedin:
+    username:        jacobryoung
+    url:             https://linkedin.com/in/jacobryoung
   pgp:
     keybase:         https://keybase.io/jacobyoung
 
