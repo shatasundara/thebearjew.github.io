@@ -31,8 +31,8 @@ dvocders introduces students to new concepts and real world practices like RESTf
 
 [<i class="fa fa-envelope"></i>](mailto:{{ site.email }}) - When you're feeling wordy
 
-### Reading List
+### Recommended
 
-Everything from Cryptography to Economics; Spy Novels to Alan Turing. I'm great at adding books, not so great at keeping up with reading them.
+A list of things I like from the realms of books & novels, podcasts, apps (iOS and OS X), other interesting people to follow.
 
-Check it out [here](), would love to hear your thoughts!
+[Check it out]()
