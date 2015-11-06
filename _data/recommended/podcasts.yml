@@ -1,12 +1,12 @@
 - name: Accidental Tech Podcast
   itunes_url: https://itunes.apple.com/us/podcast/accidental-tech-podcast/id617416468?mt=2
   description: >
-    ATP is a Apple, technology, and general nerd podcast with [Marco Arment](), [John Siracusa](), and [Casey Liss](). Marco is the developer of [Overcast]() and [Instapaper](), John wrote the Ars Technica [OS X reviews[()] for 15 years, and Casey... "who the hell is Casey?"
+    ATP is a Apple, technology, and general nerd podcast with [Marco Arment](https://twitter.com/marcoarment), [John Siracusa](https://twitter.com/siracusa), and [Casey Liss](https://twitter.com/caseyliss). Marco is the developer of [Overcast](https://overcast.fm) and [Instapaper](https://www.instapaper.com), John wrote the Ars Technica [OS X reviews(http://arstechnica.com/author/john-siracusa/) for 15 years, and Casey... "who the hell is Casey?"
 
 - name: Freakonomics Radio
   itunes_url: https://itunes.apple.com/us/podcast/freakonomics-radio/id354668519?mt=2
   description: >
-    If you haven't read [Freakonomics](), the amazing, shocking, and eye-opening book on economics by Stephen Dubner and Stephen Levitt:
+    If you haven't read [Freakonomics](http://freakonomics.com/books/freakonomics/), the amazing, shocking, and eye-opening book on economics by Stephen Dubner and Stephen Levitt:
       1. You should read it!
       2. You should listen to Freakonomics Radio!
     Freakonomics asks profound questions like: "Why do drug dealers still live with their moms?", "What do school teachers and sumo wrestlers have in common?", and "Where have all the criminals gone?"
@@ -15,7 +15,7 @@
 - name: 99% Invisible
   itunes_url: https://itunes.apple.com/us/podcast/99-invisible/id394775318?mt=2
   description: >
-    99% Invisble is devoted to exploring the complex and unknown stories of design in everyday products, places, and events. Hosted by Roman Mars (who has most buttery voice ever), it's always a fascinating and exciting listen. Usually never longer that 25 minutes each.
+    99% Invisble is devoted to exploring the complex and unknown stories of design in everyday products, places, and events. Hosted by [Roman Mars](https://twitter.com/romanmars) (who has most buttery voice ever), it's always a fascinating and exciting listen. Usually never longer that 25 minutes each.
 
 - name: Dan Carlin's Harcore History
   itunes_url: https://itunes.apple.com/us/podcast/dan-carlins-hardcore-history/id173001861?mt=2
