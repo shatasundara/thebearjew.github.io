@@ -8,10 +8,9 @@ permalink: recommended/
 
 ## {{ category.title }}  
   {% for item in category.list %}
-<img id="about-profile" src="{{ site.images_path}}recommendations/{{ item.image }}" alt="{{ item.name }} Image">
+<a href="{{ item.url }}"><img id="about-profile" src="{{ site.images_path}}recommendations/{{ item.image }}" alt="{{ item.name }} Image"></a>
 
-
-#### [{{ item.name }}]({{ item.url}})
+####{{ item.name }}
 
 {{ item.description }}
 <br>
