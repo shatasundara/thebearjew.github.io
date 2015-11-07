@@ -49,7 +49,7 @@ function checkExternalLink (item, hostName) {
   var href = item.href
   var itemHost = href.replace(/https?:\/\/([^\/]+)(.*)/, '$1')
   if(itemHost !== '' && itemHost !== hostName) {
-    console.log('Changing ' + item + ' to target=_blank')
+    // console.log('Changing ' + item + ' to target=_blank')
     item.target = '_blank'
   }
 }
