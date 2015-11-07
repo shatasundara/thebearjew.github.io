@@ -23,4 +23,4 @@ I prefer simple, thoughful, code and designs where possible - never make it too 
 
 #### [{{ post.title | truncate: 80 }}]({{ post.url }})
 
-> <small>{{ content | split: '<!-- more -->' | first }}</small>
+> <small>{{ post.excerpt }}</small>

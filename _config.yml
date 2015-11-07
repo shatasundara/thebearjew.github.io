@@ -29,6 +29,13 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
+# Markdown
+#
+# Configuring and using Markdown Processors
+markdown: redcarpet
+redcarpet:
+  extensions: ["fenced_code_blocks", "highlight", "footnotes", "superscript", "underline", "strikethrough", "tables"]
+
 # About/contact
 #
 # 
