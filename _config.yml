@@ -2,13 +2,13 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 # Use of '/:title' permalinks allows for 'base.io/title' urls
-permalink:           /posts/:title
+permalink:           posts/:title
 
 # Setup
 title:               Jacob Young
 short_title:         JRY
 url:                 http://jry.io
-baseurl:             ""
+baseurl:             "/"
 images_path:         "/assets/images/"
 
 # Defaults

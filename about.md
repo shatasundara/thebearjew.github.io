@@ -31,8 +31,10 @@ dvocders introduces students to new concepts and real world practices like RESTf
 
 [<i class="fa fa-envelope"></i>](mailto:{{ site.email }}) - When you're feeling wordy
 
-### Recommended
+### Suggested X
 
-A list of things I like from the realms of books & novels, podcasts, apps (iOS and OS X), other interesting people to follow.
+Where X = ['reading', 'listening', 'etc.']
 
-[Check it out]()
+Quick list of books, podcasts, and apps I enjoy and you might too.
+
+[Check it out]({{ "recommended" | prepend: site.baseurl }})
