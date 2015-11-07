@@ -1,4 +1,9 @@
 (function (){
+  handleTheme()
+  handleExternalLinks()
+})()
+
+function handleTheme () {
   var themeToggle = document.getElementById('theme-toggle')
   // Grabs document.cookie with name "dark" using the Cookie.js library
   // https://github.com/js-cookie/js-cookie
@@ -28,4 +33,23 @@
     Cookies.remove('dark')
     document.body.className = ''
   }
-})()
+}
+
+// Adds attribute "target=_blank" to links to all external sites
+function handleExternalLinks () {
+  var host = location.host
+  var allLinks = document.querySelectorAll('a')
+  for (var i = 0; i < allLinks.length; ++i) {
+    var link = allLinks[i]
+    checkExternalLink(link, host)
+  }
+}
+
+function checkExternalLink (item, hostName) {
+  var href = item.href
+  var itemHost = href.replace(/https?:\/\/([^\/]+)(.*)/, '$1')
+  if(itemHost !== '' && itemHost !== hostName) {
+    console.log('Changing ' + item + ' to target=_blank')
+    item.target = '_blank'
+  }
+}
