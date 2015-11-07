@@ -1,4 +1,5 @@
-(function (){
+/*global location Cookies*/
+(function () {
   handleTheme()
   handleExternalLinks()
 })()
@@ -17,7 +18,7 @@ function handleTheme () {
 
   if (themeToggle) themeToggle.addEventListener('click', switchTheme)
 
-  function switchTheme(e) {
+  function switchTheme (e) {
     e.preventDefault()
     if (!isDarkTheme) enableDarkTheme()
     else disableDarkTheme()
@@ -48,7 +49,7 @@ function handleExternalLinks () {
 function checkExternalLink (item, hostName) {
   var href = item.href
   var itemHost = href.replace(/https?:\/\/([^\/]+)(.*)/, '$1')
-  if(itemHost !== '' && itemHost !== hostName) {
+  if (itemHost !== '' && itemHost !== hostName) {
     // console.log('Changing ' + item + ' to target=_blank')
     item.target = '_blank'
   }
