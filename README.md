@@ -1,4 +1,4 @@
-## jry.io
+## jry.io [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 This is my personal website, blog, and portfolio - you'll find me writing about hackathons, JavaScript/Node, Git/Github, or other things I find interesting.
 
