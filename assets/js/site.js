@@ -6,6 +6,7 @@
 
 function handleTheme () {
   var themeToggle = document.getElementById('theme-toggle')
+  var codeBlocks = document.getElementsByClassName('highlight')
   // Grabs document.cookie with name "dark" using the Cookie.js library
   // https://github.com/js-cookie/js-cookie
   var darkThemeCookie = Cookies.get('dark')
@@ -28,11 +29,21 @@ function handleTheme () {
     Cookies.set('dark', 'true', {expiration: 90, path: '/'})
     document.body.classList.add('dark-background')
     document.body.classList.add('dark-text-color')
+    if (codeBlocks) {
+      Array.prototype.forEach.call(codeBlocks, function (block, index, array) {
+        block.classList.add('dark-code-background')
+      })
+    }
   }
   function disableDarkTheme () {
     isDarkTheme = false
     Cookies.remove('dark')
     document.body.className = ''
+    if (codeBlocks) {
+      Array.prototype.forEach.call(codeBlocks, function (block, index, array) {
+        block.classList.remove('dark-code-background')
+      })
+    }
   }
 }
 

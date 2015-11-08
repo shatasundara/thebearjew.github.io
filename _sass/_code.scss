@@ -5,7 +5,7 @@
 
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: Hack, Menlo, Monaco, "Courier New", monospace;
 }
 
 code {
@@ -36,6 +36,7 @@ pre code {
   line-height: 1.4;
   background-color: #f9f9f9;
   border-radius: .25rem;
+  color: inherit;
 
   pre {
     margin-bottom: 0;

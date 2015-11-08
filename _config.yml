@@ -48,6 +48,7 @@ sass:
 #
 # Configuring and using Markdown Processors
 markdown: redcarpet
+highlighter: rouge
 redcarpet:
   extensions: ["fenced_code_blocks", "highlight", "footnotes", "superscript", "underline", "strikethrough", "tables"]
 
