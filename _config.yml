@@ -22,6 +22,21 @@ defaults:
     values:
       is_post: true
 
+# About/contact
+#
+# Some commonly used personal information and links
+name:              Jacob Young
+email:             jacob@jry.io
+twitter:
+  username:        jryio
+  url:             https://twitter.com/jryio
+github:
+  username:        thebearjew
+  url:             https://github.com/thebearjew
+linedin:
+  username:        jacobryoung
+  url:             https://linkedin.com/in/jacobryoung
+
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
@@ -36,17 +51,9 @@ markdown: redcarpet
 redcarpet:
   extensions: ["fenced_code_blocks", "highlight", "footnotes", "superscript", "underline", "strikethrough", "tables"]
 
-# About/contact
+# Gems
 #
-# 
-name:              Jacob Young
-email:             jacob@jry.io
-twitter:
-  username:        jryio
-  url:             https://twitter.com/jryio
-github:
-  username:        thebearjew
-  url:             https://github.com/thebearjew
-linedin:
-  username:        jacobryoung
-  url:             https://linkedin.com/in/jacobryoung
+# Using jemoji gem with github-pages gem to use emoji by default on this site!
+gems:
+  - jemoji
+  - jekyll-mentions
