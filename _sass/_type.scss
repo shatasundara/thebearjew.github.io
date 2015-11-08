@@ -104,6 +104,11 @@ time {
   font-size: inherit;
 }
 
+mark {
+  background-color: $theme-color;
+  color: inherit;
+}
+
 // Markdown footnotes
 //
 // See the example content post for an example.
