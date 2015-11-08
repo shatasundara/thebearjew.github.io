@@ -30,8 +30,8 @@ function handleTheme () {
     document.body.classList.add('dark-background')
     document.body.classList.add('dark-text-color')
     if (codeBlocks) {
-      Array.prototype.forEach.call(codeBlocks, function (block, index, array) {
-        block.classList.add('dark-code-background')
+      forEach(codeBlocks, function (elem, index) {
+        elem.classList.add('dark-code-background')
       })
     }
   }
@@ -40,8 +40,8 @@ function handleTheme () {
     Cookies.remove('dark')
     document.body.className = ''
     if (codeBlocks) {
-      Array.prototype.forEach.call(codeBlocks, function (block, index, array) {
-        block.classList.remove('dark-code-background')
+      forEach(codeBlocks, function (elem, index) {
+        elem.classList.remove('dark-code-background')
       })
     }
   }
@@ -51,10 +51,9 @@ function handleTheme () {
 function handleExternalLinks () {
   var host = location.host
   var allLinks = document.querySelectorAll('a')
-  for (var i = 0; i < allLinks.length; ++i) {
-    var link = allLinks[i]
-    checkExternalLink(link, host)
-  }
+  forEach(allLinks, function (elem, index) {
+    checkExternalLink(elem, host)
+  })
 }
 
 function checkExternalLink (item, hostName) {
@@ -63,5 +62,12 @@ function checkExternalLink (item, hostName) {
   if (itemHost !== '' && itemHost !== hostName) {
     // console.log('Changing ' + item + ' to target=_blank')
     item.target = '_blank'
+  }
+}
+
+// NodeList forEach function
+function forEach (array, callback, scope) {
+  for (var i = 0; i < array.length; ++i) {
+    callback.call(scope, array[i], i)
   }
 }
