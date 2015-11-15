@@ -29,3 +29,26 @@
 
 - title: Books
   list:
+    - name: The Code Book
+      author: Simon Singh
+      url: "http://www.amazon.com/Code-Book-Science-Secrecy-Cryptography/dp/0385495323/ref=sr_1_1?ie=UTF8&qid=1447569504&sr=8-1&keywords=The+Code+Book"
+      # image: the-code-book.jpg
+      description: >
+        An all encompassing book which devels deeply into the history and applications of crytopgraphy through stories of prominent users and inventors of crytopgraphy. From Juliues Ceasar and the Romans, to Navajo Code Talkers, to Allan Turing and the Enigma. The book strikes the **perfect balance** between history/narrative, and perfect technical explanations for ciphers, codes, and algoriths. I firmly believe this book is equally valuable to the layman and [Whitfield Diffe and Matin Hellmen](https://en.wikipedia.org/wiki/Diffie–Hellman_key_exchange).
+
+    - name: "1493"
+      author: Charles C. Mann
+      url: http://www.amazon.com/1493-Uncovering-World-Columbus-Created/dp/0307278247/ref=sr_1_1?ie=UTF8&qid=1447578871&sr=8-1&keywords=1493
+      # image: 1493.jpg
+      description: >
+        When Chistopher Columbus set foot on America, the contents had been separated for over 200 millions years. His quest to establish trade with China ended that split and set off the largest ecological and biological change the world has ever seen. Earthworms were never native to North America, and completely changed the landscape of all North America. An outstanding read on the "Columbian Exchange" and the long term effects of one greedy man.
+
+    - name: A Brief History of NeoLiberalism
+      author: David Harvey
+      # image: neoliberalism.jpg
+      description: >
+        Neoliberlism as a philosophy holds that free markets, free trade, and the free flow of capital is the most efficient way to produce the greatest social, political, and economic good. It argues for reduced taxation, reduced regulation, and minimal government involvement in the economy. This includes the privitization of health and retirement benefits, the dismantling of trade unions, and the general opening up of the economy to foreign competition. Supporters of neoliberlism present this as an ideal system. Detractors, such as Harvey, see it as a power grab by economic elites and a race to the bottom for the rest.
+
+
+- title: Apps
+  list: 
