@@ -27,7 +27,7 @@ dvocders introduces students to new concepts and real world practices like RESTf
 
 [<i class="fa fa-github"></i>]({{ site.github.url }}) - Find or fix anything I've worked on
 
-[<i class="fa fa-linkedin-square"></i>]({{ site.linkedin.url }}) - (::puts on professional face::)
+[<i class="fa fa-linkedin-square"></i>]({{ site.linkedin.url }}) - [::puts on professional face::]
 
 [<i class="fa fa-envelope"></i>](mailto:{{ site.email }}) - When you're feeling wordy
 
