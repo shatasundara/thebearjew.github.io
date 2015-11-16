@@ -1,0 +1,26 @@
+- name: hackjam.io
+  date: 2015-10-3
+  url: http://hackjam.io
+  stack: "JavaScript, Foundation"
+  description: > 
+    An information page for Hack Jam - info, time, schedule, and FAQ.<br>
+    Made using [Foundation](http://foundation.zurb.com) with some nifty JavaScript.<br>
+    Try typing "emu" into hackjam.io for lolz
+
+- name: LinkedIn Crawler
+  date: 2015-06-20
+  url: http://github.com/thebearjew/linkedin-crawler
+  stack: "JavaScript, Casper.js, Phantom.js"
+  description: >
+    A front-end developer interview project.<br>
+    Uses the Casper.js and Phantom.js libraries to scrape profile images from LinkedIn and browser testing.
+
+- name: Squirtle
+  date: 2014-10-15
+  url: http://github.com/thebearjew/squirtle
+  stack: "JavaScript, jQuery"
+  description: >
+    Squirtle creates a link containing the scroll position, entered text, and highlighted text for your current web page.<br>
+    You can open the link at any time, and squirtle will scroll to where you left off and fill in all text-fields you edited.<br>
+    This was the winning project at Hack Jam Fall 2014.<br>
+    Team: Kevin Lin, Sahil Patel, and Aakash Japi<br>

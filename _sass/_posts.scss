@@ -1,0 +1,104 @@
+// Posts and pages
+//
+// Each post is wrapped in `.post` and is used on default and post layouts. Each
+// page is wrapped in `.page` and is only used on the page layout.
+
+// jry.io/blog date of each post
+.blog-post-date {
+  display: inline-block;
+  float: right;
+  color: #a9a9a9;
+}
+
+.page,
+.post {
+  padding-bottom: 5rem;
+}
+
+#about-profile, #recommend-image {
+  float: left;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  width: 350px;
+  height: 350px;
+}
+
+#recommend-image:hover {
+  box-shadow: 0px 0px 2px 2px rgba(247,183,87,0.3);
+}
+
+// Page or Post title links are colored
+.page-title,
+.post-title,
+.post-title a {
+  color: $theme-color;
+}
+.page-title,
+.post-title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.post-data-elements {
+  float: none;
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  color: #a9a9a9;
+}
+
+#theme-toggle {
+  display: inline-block;
+}
+
+// Large screens: float theme | date to left
+@media(min-width: 53rem) {
+  .post-data-elements {
+    display: inline-block;
+    float: left;
+    margin-top: 3px;
+    margin-left: -10rem;
+    text-align: right;
+    font-size: inherit;
+    vertical-align: middle;
+  }
+
+  .post-date, #theme-toggle {
+    display: block;
+  }
+  
+  .post-date {
+    max-width: 190px;
+    word-wrap: break-word;
+  }
+}
+
+// Related posts section
+.related {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+  border-top: 1px solid #eee;
+}
+
+.related #previous,
+.related #next {
+  display: inline-block;
+  max-width: 280px;
+  word-wrap: break-word;
+}
+
+.related #previous {
+  float: left;
+}
+
+.related #next {
+  float: right;
+  text-align: right;
+}
+
+// Arrow left/right
+#next span, 
+#previous span {
+  display: block;
+} 

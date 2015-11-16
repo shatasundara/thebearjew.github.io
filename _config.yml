@@ -1,25 +1,60 @@
-# Site settings
-title: Jacob Young
-email: jacob@jry.io
-short-description: > # this means to ignore newlines until "long-description:"
-    Student - developer - dvcoders president
-long-description: > # ignore newlines until "baseurl:"
-    Hi, I'm Jake.
-    
-    I'm a college student working on a Junior transfer to one of the elusive UC schools for Computer Science.
-    For the last several months I have been the president of dvcoders - a student club which learns and builds with technologies outside of academic Computer Science.
-    
-    Recently I've been working on web development, but I have previous experience with iOS and like to jump between the two.
-    
-    
-    I love hackathons and organizing them. So far I've help organize and run DVhacks, Hack Jam, and Cal Hacks.
-    Before these days, I atteneded Cal Hacks 1.0, Tree Hacks, LAHacks, and Hack Jam (winning first place).
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+# Use of '/:title' permalinks allows for 'base.io/title' urls
+permalink:           posts/:title
 
-    If you'd like to work together, lets talk - I learn fast. 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://jry.io" # the base hostname & protocol for your site
-twitter_username: jakeryoung
-github_username:  thebearjew
+# Setup
+title:               Jacob Young
+short_title:         JRY
+url:                 http://jry.io
+baseurl:             "/"
+images_path:         "/assets/images/"
 
-# Build settings
-markdown: kramdown
+# Defaults
+#
+# Gives all "posts" the variable is_post = true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      is_post: true
+
+# About/contact
+#
+# Some commonly used personal information and links
+name:              Jacob Young
+email:             jacob@jry.io
+twitter:
+  username:        jryio
+  url:             https://twitter.com/jryio
+github:
+  username:        thebearjew
+  url:             https://github.com/thebearjew
+linkedin:
+  username:        jacobryoung
+  url:             https://linkedin.com/in/jacobryoung
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# Markdown
+#
+# Configuring and using Markdown Processors
+markdown: redcarpet
+highlighter: rouge
+redcarpet:
+  extensions: ["fenced_code_blocks", "highlight", "footnotes", "superscript", "underline", "strikethrough", "tables"]
+
+# Gems
+#
+# Using jemoji gem with github-pages gem to use emoji by default on this site!
+gems:
+  - jemoji
+  - jekyll-mentions

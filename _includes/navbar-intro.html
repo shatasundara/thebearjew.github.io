@@ -1,0 +1,9 @@
+<header class="masthead hero">
+  <div class="navbar-pages intro ">
+    {% for page in site.html_pages %}
+      {% if page.is_navbar %}
+        <a href="{{ page.url }}" title="{{ page.title }}">/{{ page.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</header>
