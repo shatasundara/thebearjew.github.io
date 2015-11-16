@@ -33,6 +33,4 @@ dvocders introduces students to new concepts and real world practices like RESTf
 
 ### Suggestions/Recommendations
 
-Quick list of books, podcasts, apps, and other things I've enjoyed - you might too.
-
-[Check them out]({{ "recommended" | prepend: site.baseurl }})
+Quick list of [books, podcasts, apps, and other things]({{ "recommended" | prepend: site.baseurl }}) I've enjoyed - you might too.
