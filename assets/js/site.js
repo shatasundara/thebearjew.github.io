@@ -29,6 +29,7 @@ function handleTheme () {
     Cookies.set('dark', 'true', {expiration: 90, path: '/'})
     document.body.classList.add('dark-background')
     document.body.classList.add('dark-text-color')
+    themeToggle.innerHTML = 'Light Theme'
     if (codeBlocks) {
       forEach(codeBlocks, function (elem, index) {
         elem.classList.add('dark-code-background')
@@ -39,6 +40,7 @@ function handleTheme () {
     isDarkTheme = false
     Cookies.remove('dark')
     document.body.className = ''
+    themeToggle.innerHTML = 'Dark Theme'
     if (codeBlocks) {
       forEach(codeBlocks, function (elem, index) {
         elem.classList.remove('dark-code-background')
