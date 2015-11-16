@@ -13,15 +13,15 @@ My site is separated into two parts:
 
 **Problem**: The first version I designed had UI commits mixed with blog post commits - it was disorganized and ugly.
 
-**Solution**: Separate the posts from the rendered site to work on drafts of new posts without cluttering commit history of the main site. This also allows for modularization of the blog^[1] - posts can be imported to a new design at any time.
+**Solution**: Separate the posts from the rendered site to work on drafts of new posts without cluttering commit history of the main site. This also allows for modularization of the blog[1] - posts can be imported to a new design at any time.
 
-**Application**: I used Git feature called [Submodules](http://www.git-scm.com/book/en/v2/Git-Tools-Submodules) which allows for **repos inside of repos** - pretty awesome right?
+**Application**: Using Git feature called [Submodules](http://www.git-scm.com/book/en/v2/Git-Tools-Submodules) which allows for **repos inside of repos** - pretty awesome right?
 
 To add a submodule for posts to a Jekyll site, use the following commands (described in #20)
 
 - `git submodule add https://github.com/github-username/blog-posts` adds the submodule and generates `.gitmodules` file
 - `mv blog-posts/ _posts/` changes the name to "_posts"
--  Edit `.gitmodules`, changing `path:` variable to `_path`
+-  Edit `.gitmodules`, changing `path:` variable to `_posts`
 - `git add _posts` (no trailing slash)
 - `git submodule sync` syncing the submodule with the parent repository
 
@@ -43,4 +43,4 @@ That is the bare minimum Bash required to keep your submodule up to date wheneve
 I would love for some suggestion on how to make the pre-push hook better. If you have a knack for Bash, open an issue and let me know.
 
 --
-[1]: For real modularization, the theme should be completely detached from the HTML/Markdown content. Unfortunately, themes are not easy to make completely separate from the Jekyll structure because they depend on the HTML and Markdown being rendered.
+[1]: For real modularization, the theme should be completely detached from the HTML/Markdown content. Unfortunately, themes are not easy to make completely separate from the Jekyll structure because they depend on the HTML and Markdown organization/classes.
