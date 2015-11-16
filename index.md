@@ -8,7 +8,7 @@ title: Home
 
 <br>
 
-I'm a student, and a programmer - but not a student-programer.
+I'm a student and a programmer.
 
 Right now I'm working with Python and JavaScript (Node, SocketIO) for a slew of personal projects (still love iOS/*[[Objective-C alloc] init]* though). I prefer simple, thoughful, code and designs where possible - never make it too cluttered. 
 
