@@ -32,6 +32,15 @@
   }
 }
 
+@media(max-width: 600px) {
+  .navbar-pages {
+    display: block;
+    a {
+      margin-left: 0;
+    }
+  }
+}
+
 // Custom alignment for navbar-intro.html
 .navbar-pages.intro {
   float: left;
