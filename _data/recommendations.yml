@@ -24,8 +24,8 @@
       url: https://itunes.apple.com/us/podcast/dan-carlins-hardcore-history/id173001861?mt=2
       image: hardcore-history.jpg
       description: >
-        Dan Carlin hits your :history sweet spot". Harcore History goes in depth into major events (ex. WWI) and periods of history (ex. Genghis Khan Conquest). Each episode is over 3 hours long, and rich in historical first-hand sources, historian perspectives, and human stories throughout history - with the unique Dan Carlin narration.
-        The depth, detail, and scrutity Dan goes into is **outstanding** and entirely worth listening to [I highly recommend [Wrath of the Khans part I](https://itunes.apple.com/us/podcast/show-43-wrath-of-the-khans-i/id173001861?i=116854083&mt=2)).
+        Dan Carlin hits your *history sweet spot*. Harcore History goes in depth into major events like World War I and long of history Mongol Conquest. Each episode is over 3 hours long, and rich in historical first-hand sources, historian/academic perspectives, and human stories - all with Dan Carlin's legendary narration.
+        The depth, detail, and scrutity Dan goes into is outstanding and entirely worth listening to [I highly recommend [Wrath of the Khans part I](https://itunes.apple.com/us/podcast/show-43-wrath-of-the-khans-i/id173001861?i=116854083&mt=2)).
 
 - title: Books
   list:
@@ -51,4 +51,35 @@
 
 
 - title: Apps
-  list: 
+  list:
+    - name: MacID
+      url: http://macid.co
+      image: macid.png
+      description: >
+        MacID unlocks your Mac by using awesome features like TouchID, tap gestures, and Bluetooth proximity. MacID allows you to do things like automatically sleep/wake your mac when you walk away from it, create trackpad gestures to quickly unlock your Mac, and send clipboard text between your iPhone and Mac. I find it incredibly useful and seamless to use.
+
+    - name: DayOne
+      url: http://dayoneapp.com
+      image: dayone.png
+      description: >
+        You might have seen me write about the importance of journaling. I journal every day, and Day One is the journaling app for iPhone and Mac. It has beautiful design, execllent features like custom date/time, location, tagging, images, and reminders. DayOne syncs using iCloud, so you can journal from anywhere and continue back at your Mac. For any journal entry you can attach things like pictures, physical activity, or songs. Give it a try, you'll find yourself wanting to journal more than before.
+
+    - name: iOctocat
+      url: http://ioctocat.com
+      image: ioctocat.png
+      description: >
+        If you need to keep up with Pull Requests, Issues, and important commits - iOctocat implements an excelent iOS app to the Github API. Not only are all details of a repository readable, but you can also make commits to READMEs and create new comments and Issues right from the app.
+
+
+    - name: iA Writer
+      url: http://ia.net
+      image: iawriter.jpeg
+      description: >
+        I have tried literally **every single Markdown Editor there is**, none of them perfectly providing all of the features and syncing I need. iA writer finally does Markdown editing right! I uses an in-app "library" which syncs between iOS and OS X using iCloud. It has a perfectly simple UI and beautiful custom Markdown rendering. If all you need is an app you can open and start writing immediately, this is the app for you.
+        Here are the other Markdown editors I've tried, used, and enjoyed: [MacDown - OSX](http://macdown.uranusjr.com), [Byword - iOS/OSX](http://bywordapp.com), [Editorial - iOS](http://omz-software.com/editorial/), and [TextNut - OSX](http://www.textnutwriter.com).
+
+    - name: Quiver
+      url: "http://happenapps.com/#quiver"
+      image: quiver.png
+      description: >
+        Quiver is the programmer's notebook. Quiver uses "cells" to create notes, each cell can be either Rich Text, Markdown, or a Code Block (with hlighting for evey language). It's extremely useful when mixing documentation and code examples seamlessly. It has LaTex support, live preview, and a greate code editor. I've been using it to take notes in my Computer Science courses and I find it invaluable.

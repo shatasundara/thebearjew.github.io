@@ -15,7 +15,7 @@ Feel free to pass some of these along - <a href="https://twitter.com/share" clas
 ## {{ category.title }}  
   {% for item in category.list %}
 {% if item.image %}
-<a href="{{ item.url }}"><img id="about-profile" src="{{ site.images_path}}recommendations/{{ item.image }}" alt="{{ item.name }} Image"></a>
+<a href="{{ item.url }}"><img id="recommend-image" src="{{ site.images_path}}recommendations/{{ item.image }}" alt="{{ item.name }} Image"></a>
 
 #### {{ item.name }} {% if item.author %}by {{ item.author }}{% endif %}
 {% else %}
