@@ -8,7 +8,6 @@ function handleTheme () {
   var themeToggle = document.getElementById('theme-toggle')
   var codeFences = document.getElementsByClassName('highlight')
   var codeBlocks = document.getElementsByTagName('code')
-  console.log(codeBlocks)
   // Grabs document.cookie with name "dark" using the Cookie.js library
   // https://github.com/js-cookie/js-cookie
   var darkThemeCookie = Cookies.get('dark')
