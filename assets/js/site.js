@@ -6,7 +6,9 @@
 
 function handleTheme () {
   var themeToggle = document.getElementById('theme-toggle')
-  var codeBlocks = document.getElementsByClassName('highlight')
+  var codeFences = document.getElementsByClassName('highlight')
+  var codeBlocks = document.getElementsByTagName('code')
+  console.log(codeBlocks)
   // Grabs document.cookie with name "dark" using the Cookie.js library
   // https://github.com/js-cookie/js-cookie
   var darkThemeCookie = Cookies.get('dark')
@@ -30,9 +32,16 @@ function handleTheme () {
     document.body.classList.add('dark-background')
     document.body.classList.add('dark-text-color')
     themeToggle.innerHTML = 'Light Theme'
+    if (codeFences) {
+      forEach(codeFences, function (elem, index) {
+        elem.classList.toggle('dark-code-background')
+      })
+    }
     if (codeBlocks) {
       forEach(codeBlocks, function (elem, index) {
-        elem.classList.add('dark-code-background')
+        if (!elem.classList.contains('language')) {
+          elem.classList.toggle('dark-code-background')
+        }
       })
     }
   }
@@ -41,9 +50,16 @@ function handleTheme () {
     Cookies.remove('dark')
     document.body.className = ''
     themeToggle.innerHTML = 'Dark Theme'
+    if (codeFences) {
+      forEach(codeFences, function (elem, index) {
+        elem.classList.toggle('dark-code-background')
+      })
+    }
     if (codeBlocks) {
       forEach(codeBlocks, function (elem, index) {
-        elem.classList.remove('dark-code-background')
+        if (!elem.classList.contains('language')) {
+          elem.classList.toggle('dark-code-background')
+        }
       })
     }
   }

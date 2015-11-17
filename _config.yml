@@ -57,3 +57,5 @@ redcarpet:
 gems:
   - jemoji
   - jekyll-mentions
+  - jekyll-gist
+  
