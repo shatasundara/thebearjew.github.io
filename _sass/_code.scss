@@ -3,8 +3,8 @@
  // Inline and block-level code snippets. Includes tweaks to syntax highlighted
  // snippets from Pygments/Rouge and Gist embeds.
 
-code,
-pre {
+ code,
+ pre {
   font-family: "Source Code Pro", Menlo, Monaco, "Courier New", monospace;
 }
 
@@ -57,6 +57,23 @@ pre code {
   }
 }
 
+@media(max-width: 600px) {
+  .highlight {
+    margin-left: 0;
+    width: 100%;
+    // word-wrap: break-word;
+  }
+}
+
+.gist {
+  width: 110%;
+  margin-left: -1.5rem;
+}
+
+@media(max-width 600px) {
+  width: 100%;
+  margin-left: 0;
+}
 
 .gist .gist-file {
   font-family: Menlo, Monaco, "Courier New", monospace !important;
@@ -73,8 +90,8 @@ pre code {
   line-height: 1.4;
 }
 .gist code {
-   padding: 0;
-   color: inherit;
-   background-color: transparent;
-   border-radius: 0;
- }
+ padding: 0;
+ color: inherit;
+ background-color: transparent;
+ border-radius: 0;
+}

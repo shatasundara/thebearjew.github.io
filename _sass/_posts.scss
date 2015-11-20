@@ -10,6 +10,13 @@
   color: #a9a9a9;
 }
 
+@media(max-width: 600px) {
+  .blog-post-date {
+    display: block;
+    float: none;
+  }
+}
+
 .page,
 .post {
   padding-bottom: 5rem;
