@@ -9,9 +9,9 @@ is_navbar: true
 
 I'm a second-year Computer Science student at [Diablo Valley College](https://en.wikipedia.org/wiki/Diablo_Valley_College) working on transfering to UC Berkeley. I'm fascinated by Neural Networks, Natural Language Processing, and Data Science (when used for good, not evil). 
 
-I enjoy writing about hackathons, Git/Github/Jekyll, JavaScript/Node, Computer Science, and software I use and love.
+I write about hackathons, Git/Github/Jekyll, JavaScript/Node, Computer Science, and software I use and love.
 
-I won the first Hackathon I went to ([Hack Jam](http://hackjam.io) by [Hackers@Berkeley](http://hackersatberkeley.com)) by making the Chrome extension "[Squirtle](https://github.com/thebearjew/squritle)".
+Happy title: I won the first hackathon I went to - ([Hack Jam](http://hackjam.io) by [Hackers@Berkeley](http://hackersatberkeley.com)) by making the Chrome extension "[Squirtle](https://github.com/thebearjew/squritle)".
 
 Recently I've had the great opportunity to be an **organizer** and **volunteer** for [Cal Hacks 2.0](http://calhacks.io) - the largest colligate hackathon ever - and this year's [Hack Jam](http://hackjam.io).
 
