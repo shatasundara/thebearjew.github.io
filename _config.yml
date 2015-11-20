@@ -59,4 +59,5 @@ gems:
   - jemoji
   - jekyll-mentions
   - jekyll-gist
+  - jekyll-sitemap
   
