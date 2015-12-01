@@ -36,9 +36,9 @@ pre code {
   margin-bottom: 1rem;
   font-size: .8rem;
   line-height: 1.4;
-  background-color: #f9f9f9;
+  color: $dark-text-color;
+  background-color: #333;
   border-radius: .25rem;
-  color: inherit;
 
   pre {
     margin-bottom: 0;

@@ -2,7 +2,7 @@
   <div class="navbar-pages">
     {% for page in site.pages %}
       {% if page.is_navbar %}
-        <a href="{{ page.url }}" title="{{ page.title }}">/{{ page.title }}</a>
+        <a href="{{ page.url }}" title="{{ page.title }}"><span class="slash-link">/</span>{{ page.title }}</a>
       {% endif %}
     {% endfor %}
   </div>
