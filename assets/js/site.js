@@ -39,17 +39,17 @@ function handleTheme () {
 
 // Adds attribute "target=_blank" to links to all external sites
 function handleExternalLinks () {
-  var host = location.hostname
+  var host = location.host
   var allLinks = document.querySelectorAll('a')
   forEach(allLinks, function (elem, index) {
     checkExternalLink(elem, host)
   })
 }
 
-function checkExternalLink (item, hostName) {
+function checkExternalLink (item, hostname) {
   var href = item.href
   var itemHost = href.replace(/https?:\/\/([^\/]+)(.*)/, '$1')
-  if (itemHost !== '' && itemHost !== hostName) {
+  if (itemHost !== '' && itemHost !== hostname) {
     // console.log('Changing ' + item + ' to target=_blank')
     item.target = '_blank'
   }

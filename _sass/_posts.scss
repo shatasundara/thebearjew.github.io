@@ -16,11 +16,6 @@
   }
 }
 
-.page,
-.post {
-  padding-bottom: 5rem;
-}
-
 #about-profile, #recommend-image {
   float: left;
   margin-top: 0.5rem;
@@ -41,12 +36,11 @@
   }
 }
 
-// Page or Post title links are colored
-.page-title,
-.post-title,
-.post-title a {
-  color: $theme-color;
+.page,
+.post {
+  // padding-bottom: 5rem;
 }
+
 .page-title,
 .post-title {
   margin-top: 0;
@@ -87,7 +81,7 @@
 .related {
   padding-top: 2rem;
   padding-bottom: 6rem;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #f7b757;
 }
 
 .related #previous,

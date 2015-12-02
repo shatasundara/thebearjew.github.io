@@ -10,9 +10,9 @@
 
 code {
   padding: .25em .5em;
-  font-size: 85%;
+  font-size: 75%;
   color: #bf616a;
-  background-color: #f9f9f9;
+  background-color: $code-background;
   border-radius: 3px;
 }
 
@@ -37,7 +37,7 @@ pre code {
   font-size: .8rem;
   line-height: 1.4;
   color: $dark-text-color;
-  background-color: #333;
+  background-color: $dark-code-background;
   border-radius: .25rem;
 
   pre {
