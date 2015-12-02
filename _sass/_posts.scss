@@ -38,7 +38,7 @@
 
 .page,
 .post {
-  // padding-bottom: 5rem;
+  margin-top: 2rem;
 }
 
 .page-title,
@@ -48,40 +48,26 @@
 }
 
 .post-data-elements {
-  float: none;
   display: block;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
   color: #a9a9a9;
 }
 
-#theme-toggle {
+.post-data-elements #post-theme {
+  float: right;
   display: inline-block;
 }
 
-// Large screens: float theme | date to left
-@media(min-width: 53rem) {
-  .post-data-elements {
-    display: inline-block;
-    float: left;
-    margin-top: 3px;
-    margin-left: -12rem;
-    text-align: right;
-    font-size: inherit;
-    vertical-align: middle;
-  }
-  
-  .post-date {
-    max-width: 190px;
-    word-wrap: break-word;
-  }
+#theme-toggle {
+  display: inline-block;
 }
 
 // Related posts section
 .related {
   padding-top: 2rem;
   padding-bottom: 6rem;
-  border-top: 1px solid #f7b757;
+  border-top: 2px solid $theme-color-orange-rgba;
 }
 
 .related #previous,

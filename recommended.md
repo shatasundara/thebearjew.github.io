@@ -1,11 +1,14 @@
 ---
 layout: page
-title: Recommended
+title: Lists
 permalink: recommended/
+is_navbar: true
 ---
 Some suggestions on great reads, listens, and uses - from me to you. These are the things I love and I enjoy sharing.
 
-Feel free to pass some of these along - <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://jry.io/recommended" data-via="jryio">Tweet</a> 
+Feel free to pass some of these along
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://jry.io/recommended" data-via="jryio">Tweet</a> 
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document, "script", "twitter-wjs");</script>
 

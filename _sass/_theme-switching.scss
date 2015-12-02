@@ -16,4 +16,9 @@
   code, .highlight {
     background-color: $dark-code-background;
   }
+
+  ::selection {
+    background-color: $theme-color-orange;
+    color: $theme-color;
+  }
 }
