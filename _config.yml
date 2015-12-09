@@ -10,7 +10,7 @@ short_title:         JRY
 url:                 http://jry.io
 baseurl:             "/"
 images_path:         "/assets/images/"
-excerpt_separator:   "<!-- more -->"
+excerpt_separator:   "\n\n"
 
 # Defaults
 #
@@ -49,6 +49,7 @@ sass:
 #
 # Configuring and using Markdown Processors
 markdown: redcarpet
+highlighter: rouge
 redcarpet:
   extensions: ["fenced_code_blocks", "highlight", "footnotes", "superscript", "underline", "strikethrough", "tables"]
 
